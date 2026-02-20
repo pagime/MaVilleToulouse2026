@@ -1,0 +1,408 @@
+[
+  {
+    "id": "moudenc",
+    "commune_slug": "toulouse",
+    "nom": "Moudenc",
+    "prenom": "Jean-Luc",
+    "photo": "/images/candidats/moudenc-jean-luc.jpg",
+    "parti": "Divers droite (LR / Renaissance / Horizons / MoDem)",
+    "slogan": "Toulouse, ville d'avance",
+    "bio": "Maire de Toulouse depuis 2014, réélu en 2020, Jean-Luc Moudenc est avocat de profession. Ancien député, il a porté la construction de la 3e ligne de métro et la modernisation du centre-ville. Il brigue un troisième mandat à la tête de la Ville rose.",
+    "profession": "Avocat",
+    "site_web": "https://moudenc2026.fr",
+    "mandats_precedents": ["Maire de Toulouse 2014-2020", "Maire de Toulouse 2020-2026", "Président de Toulouse Métropole 2014-2026"],
+    "propositions": [
+      {
+        "thematique": "transport",
+        "titre": "Achever la 3e ligne de métro Toulouse Aerospace Express",
+        "description": "Poursuivre et accélérer le chantier de la ligne C du métro reliant Colomiers à Labège via l'aéroport. Développer les parkings relais en périphérie pour limiter l'entrée des voitures en ville.",
+        "source_url": "https://moudenc2026.fr/programme/transports",
+        "cout_estime": "2,7 Md€"
+      },
+      {
+        "thematique": "ecologie",
+        "titre": "Îlots de fraîcheur et plan canicule",
+        "description": "Création d'îlots de fraîcheur ciblés dans les quartiers les plus exposés, végétalisation des cours d'école et installation de brumisateurs dans les espaces publics.",
+        "source_url": "https://moudenc2026.fr/programme/ecologie",
+        "cout_estime": "25 M€"
+      },
+      {
+        "thematique": "securite",
+        "titre": "1 caméra par rue : vidéoprotection intégrale",
+        "description": "Déploiement massif de caméras de vidéoprotection pour couvrir l'ensemble des rues de Toulouse, couplé à un centre de supervision urbain renforcé.",
+        "source_url": "https://moudenc2026.fr/programme/securite",
+        "cout_estime": "30 M€"
+      },
+      {
+        "thematique": "urbanisme",
+        "titre": "PLUi-H avec 35% de logements sociaux",
+        "description": "Maintien de l'objectif de 35% de logements sociaux dans les nouvelles opérations d'aménagement via le Plan Local d'Urbanisme intercommunal Habitat. Opposition à l'encadrement des loyers.",
+        "source_url": "https://moudenc2026.fr/programme/urbanisme",
+        "cout_estime": null
+      },
+      {
+        "thematique": "education",
+        "titre": "Plan numérique éducatif",
+        "description": "Équipement numérique des écoles, rénovation des bâtiments scolaires et développement des activités périscolaires.",
+        "source_url": "https://moudenc2026.fr/programme/education",
+        "cout_estime": "15 M€"
+      },
+      {
+        "thematique": "culture",
+        "titre": "Grands équipements culturels",
+        "description": "Poursuite du soutien aux grands événements culturels toulousains et modernisation des équipements culturels municipaux.",
+        "source_url": "https://moudenc2026.fr/programme/culture",
+        "cout_estime": "20 M€"
+      },
+      {
+        "thematique": "fiscalite",
+        "titre": "Gel de la taxe foncière depuis 2016",
+        "description": "Maintien du gel du taux de la taxe foncière, en place depuis 2016, grâce à l'optimisation des dépenses de fonctionnement.",
+        "source_url": "https://moudenc2026.fr/programme/fiscalite",
+        "cout_estime": null
+      },
+      {
+        "thematique": "social",
+        "titre": "Mutuelle communale élargie à tous",
+        "description": "Extension de la mutuelle communale à l'ensemble des Toulousains, au-delà des seuls bénéficiaires actuels, pour un accès universel à une complémentaire santé à tarif négocié.",
+        "source_url": "https://moudenc2026.fr/programme/social",
+        "cout_estime": "5 M€/an"
+      },
+      {
+        "thematique": "numerique",
+        "titre": "Toulouse Smart City",
+        "description": "Plateforme open data municipale, capteurs IoT pour la gestion des déchets et de l'éclairage, vidéoprotection augmentée par intelligence artificielle.",
+        "source_url": "https://moudenc2026.fr/programme/numerique",
+        "cout_estime": "25 M€"
+      },
+      {
+        "thematique": "democratie",
+        "titre": "Conseils citoyens de quartier",
+        "description": "Renforcement des conseils citoyens de quartier avec un budget dédié et maintien du budget participatif existant.",
+        "source_url": "https://moudenc2026.fr/programme/democratie",
+        "cout_estime": "3 M€/an"
+      }
+    ]
+  },
+  {
+    "id": "briancon",
+    "commune_slug": "toulouse",
+    "nom": "Briançon",
+    "prenom": "François",
+    "photo": "/images/candidats/briancon-francois.jpg",
+    "parti": "Gauche unie (PS / EELV / PCF / Place Publique / Archipel Citoyen)",
+    "slogan": "Vivre mieux à Toulouse",
+    "bio": "Médecin généraliste, François Briançon est conseiller municipal d'opposition depuis 2020 au sein d'Archipel Citoyen. Il porte une candidature de large rassemblement de la gauche et des écologistes autour de 12 priorités pour Toulouse.",
+    "profession": "Médecin généraliste",
+    "site_web": "https://vivremieuxtoulouse.fr",
+    "mandats_precedents": ["Conseiller municipal d'opposition 2020-2026"],
+    "propositions": [
+      {
+        "thematique": "transport",
+        "titre": "Gratuité des transports pour mineurs et étudiants boursiers",
+        "description": "Instaurer la gratuité des transports Tisséo pour les mineurs et les étudiants boursiers. Développer massivement les pistes cyclables sécurisées et soutenir le projet de RER métropolitain.",
+        "source_url": "https://vivremieuxtoulouse.fr/programme/transports",
+        "cout_estime": "40 M€/an"
+      },
+      {
+        "thematique": "ecologie",
+        "titre": "Règle 3-30-300 et Étoile Verte",
+        "description": "Appliquer la règle 3-30-300 (3 arbres visibles de chaque fenêtre, 30% de canopée, 300m max d'un espace vert). Plan Étoile Verte de rénovation thermique massive des bâtiments publics.",
+        "source_url": "https://vivremieuxtoulouse.fr/programme/ecologie",
+        "cout_estime": "80 M€"
+      },
+      {
+        "thematique": "securite",
+        "titre": "Police municipale de proximité : 1 agent pour 1 000 habitants",
+        "description": "Création d'une police municipale de proximité avec l'objectif d'un agent pour 1 000 habitants, présence dans tous les quartiers, privilégiant le lien avec la population.",
+        "source_url": "https://vivremieuxtoulouse.fr/programme/securite",
+        "cout_estime": "15 M€/an"
+      },
+      {
+        "thematique": "urbanisme",
+        "titre": "15 000 logements à loyers modérés",
+        "description": "Construction de 15 000 logements à loyers modérés sur le mandat. Encadrement des loyers dans le parc privé. Limitation de la durée des locations Airbnb à 90 jours.",
+        "source_url": "https://vivremieuxtoulouse.fr/programme/urbanisme",
+        "cout_estime": "300 M€"
+      },
+      {
+        "thematique": "education",
+        "titre": "+1 000 places en crèche",
+        "description": "Création de 1 000 places supplémentaires en crèche municipale pour réduire drastiquement les listes d'attente. Alimentation 100% bio et locale dans les cantines scolaires.",
+        "source_url": "https://vivremieuxtoulouse.fr/programme/education",
+        "cout_estime": "50 M€"
+      },
+      {
+        "thematique": "culture",
+        "titre": "Culture accessible dans tous les quartiers",
+        "description": "Développer les équipements culturels de proximité dans chaque quartier, tarifs réduits pour les jeunes et les publics précaires, soutien renforcé aux associations culturelles locales.",
+        "source_url": "https://vivremieuxtoulouse.fr/programme/culture",
+        "cout_estime": "15 M€"
+      },
+      {
+        "thematique": "fiscalite",
+        "titre": "Limitation Airbnb à 90 jours et taxe logements vacants",
+        "description": "Instauration d'une limitation à 90 jours/an pour les meublés touristiques et d'une taxe majorée sur les logements vacants pour inciter la remise sur le marché locatif.",
+        "source_url": "https://vivremieuxtoulouse.fr/programme/fiscalite",
+        "cout_estime": null
+      },
+      {
+        "thematique": "social",
+        "titre": "Logements sociaux dans tous les quartiers",
+        "description": "Répartition équilibrée des logements sociaux dans tous les quartiers, y compris les plus aisés, pour garantir la mixité sociale sur l'ensemble de la ville.",
+        "source_url": "https://vivremieuxtoulouse.fr/programme/social",
+        "cout_estime": null
+      },
+      {
+        "thematique": "numerique",
+        "titre": "Inclusion numérique et services de proximité",
+        "description": "Maintien des guichets physiques pour tous les services municipaux et ouverture d'espaces numériques d'accompagnement dans les quartiers prioritaires.",
+        "source_url": "https://vivremieuxtoulouse.fr/programme/numerique",
+        "cout_estime": "5 M€"
+      },
+      {
+        "thematique": "democratie",
+        "titre": "Droit d'initiative citoyenne",
+        "description": "Instauration d'un droit d'initiative citoyenne permettant aux habitants de proposer des délibérations au conseil municipal. Augmentation significative du budget participatif.",
+        "source_url": "https://vivremieuxtoulouse.fr/programme/democratie",
+        "cout_estime": "2 M€/an"
+      }
+    ]
+  },
+  {
+    "id": "piquemal",
+    "commune_slug": "toulouse",
+    "nom": "Piquemal",
+    "prenom": "François",
+    "photo": "/images/candidats/piquemal-francois.jpg",
+    "parti": "LFI / Demain Toulouse (NFP / NPA)",
+    "slogan": "Demain Toulouse",
+    "bio": "Député de Haute-Garonne et figure de La France Insoumise à Toulouse, François Piquemal est enseignant de profession. Il porte le projet « Demain Toulouse » avec une liste soutenue par le Nouveau Front Populaire et le NPA, autour de 10 mesures phares.",
+    "profession": "Enseignant",
+    "site_web": "https://piquemal2026.fr",
+    "mandats_precedents": ["Député de Haute-Garonne 2022-2026"],
+    "propositions": [
+      {
+        "thematique": "transport",
+        "titre": "Gratuité des transports pour les moins de 26 ans",
+        "description": "Instaurer la gratuité des transports en commun Tisséo pour tous les moins de 26 ans. Soutien au projet de RER métropolitain toulousain pour désenclaver les quartiers populaires.",
+        "source_url": "https://piquemal2026.fr/programme/transports",
+        "cout_estime": "60 M€/an"
+      },
+      {
+        "thematique": "ecologie",
+        "titre": "Grand Parc Cepière et -55% d'émissions",
+        "description": "Création d'un grand parc urbain sur le site de la Cepière. Objectif de réduction de 55% des émissions de gaz à effet de serre via la rénovation thermique massive des bâtiments.",
+        "source_url": "https://piquemal2026.fr/programme/ecologie",
+        "cout_estime": "120 M€"
+      },
+      {
+        "thematique": "securite",
+        "titre": "Police de proximité, abandon de la vidéosurveillance",
+        "description": "Abandon du programme de vidéosurveillance, création d'une vraie police municipale de proximité présente dans les quartiers, avec des médiateurs sociaux.",
+        "source_url": "https://piquemal2026.fr/programme/securite",
+        "cout_estime": "10 M€/an"
+      },
+      {
+        "thematique": "urbanisme",
+        "titre": "Encadrement des loyers et gel des loyers HLM",
+        "description": "Mise en place de l'encadrement des loyers dans le parc privé. Gel des loyers HLM pendant le mandat. Limitation Airbnb à 90 jours/an. Réquisition des logements vacants.",
+        "source_url": "https://piquemal2026.fr/programme/urbanisme",
+        "cout_estime": null
+      },
+      {
+        "thematique": "education",
+        "titre": "Audit des écoles et cantine 100% bio",
+        "description": "Audit complet de l'état des écoles toulousaines, plan de rénovation d'urgence. Cantine 100% bio et locale avec tarification sociale renforcée.",
+        "source_url": "https://piquemal2026.fr/programme/education",
+        "cout_estime": "30 M€"
+      },
+      {
+        "thematique": "culture",
+        "titre": "Gratuité des musées municipaux",
+        "description": "Rendre gratuits les musées municipaux pour tous. Augmentation du budget culturel et soutien aux pratiques culturelles dans les quartiers populaires.",
+        "source_url": "https://piquemal2026.fr/programme/culture",
+        "cout_estime": "10 M€/an"
+      },
+      {
+        "thematique": "fiscalite",
+        "titre": "Taxe Airbnb et logements vacants",
+        "description": "Limitation Airbnb à 90 jours/an, taxe renforcée sur les logements vacants, pas d'augmentation de la taxe foncière pour les résidences principales.",
+        "source_url": "https://piquemal2026.fr/programme/fiscalite",
+        "cout_estime": null
+      },
+      {
+        "thematique": "social",
+        "titre": "Gel des loyers HLM et aide alimentaire",
+        "description": "Gel des loyers dans les HLM municipaux, renforcement de l'aide alimentaire municipale et création de cuisines solidaires de quartier.",
+        "source_url": "https://piquemal2026.fr/programme/social",
+        "cout_estime": "15 M€/an"
+      },
+      {
+        "thematique": "numerique",
+        "titre": "Contre la Smart City sécuritaire",
+        "description": "Opposition à la vidéosurveillance algorithmique et à la Smart City sécuritaire. Défense des libertés numériques et des logiciels libres dans les services municipaux.",
+        "source_url": "https://piquemal2026.fr/programme/numerique",
+        "cout_estime": null
+      },
+      {
+        "thematique": "democratie",
+        "titre": "RIC local et coopératives de quartier",
+        "description": "Instauration d'un référendum d'initiative citoyenne local. Création de coopératives de quartier dotées de 500 000€ à 1 M€ pour décider des investissements locaux.",
+        "source_url": "https://piquemal2026.fr/programme/democratie",
+        "cout_estime": "8 M€/an"
+      }
+    ]
+  },
+  {
+    "id": "leonardelli",
+    "commune_slug": "toulouse",
+    "nom": "Léonardelli",
+    "prenom": "Julien",
+    "photo": "/images/candidats/leonardelli-julien.jpg",
+    "parti": "Rassemblement National",
+    "slogan": "Le bon sens toulousain",
+    "bio": "Conseiller régional Rassemblement National d'Occitanie, Julien Léonardelli est le chef de file du RN à Toulouse. Il porte une candidature axée sur la sécurité, la baisse des impôts et la maîtrise de l'immigration.",
+    "profession": "Cadre administratif",
+    "site_web": "https://lebonsenstoulousain.fr",
+    "mandats_precedents": ["Conseiller régional d'Occitanie 2021-2026"],
+    "propositions": [
+      {
+        "thematique": "transport",
+        "titre": "Maintien de l'accès automobile en ville",
+        "description": "Opposition à la réduction des places de stationnement en centre-ville. Maintien de l'accessibilité automobile pour les Toulousains et les commerces.",
+        "source_url": "https://lebonsenstoulousain.fr/programme",
+        "cout_estime": null
+      },
+      {
+        "thematique": "ecologie",
+        "titre": "Propreté urbaine prioritaire",
+        "description": "Renforcement des effectifs de nettoyage, lutte contre les dépôts sauvages et les incivilités environnementales.",
+        "source_url": "https://lebonsenstoulousain.fr/programme",
+        "cout_estime": null
+      },
+      {
+        "thematique": "securite",
+        "titre": "Plus de caméras et tolérance zéro",
+        "description": "Extension massive de la vidéosurveillance, armement de la police municipale, politique de tolérance zéro contre la délinquance.",
+        "source_url": "https://lebonsenstoulousain.fr/programme",
+        "cout_estime": null
+      },
+      {
+        "thematique": "urbanisme",
+        "titre": "Préserver le patrimoine toulousain",
+        "description": "Protection renforcée du patrimoine architectural de la Ville rose, limitation des constructions dénaturant le paysage urbain.",
+        "source_url": "https://lebonsenstoulousain.fr/programme",
+        "cout_estime": null
+      },
+      {
+        "thematique": "fiscalite",
+        "titre": "Baisser les impôts locaux",
+        "description": "Réduction de la taxe foncière financée par des coupes dans les subventions aux associations jugées non prioritaires et la réduction des dépenses de fonctionnement.",
+        "source_url": "https://lebonsenstoulousain.fr/programme",
+        "cout_estime": null
+      },
+      {
+        "thematique": "social",
+        "titre": "Mutuelle communale généralisée",
+        "description": "Généralisation de la mutuelle communale à tous les Toulousains, avec priorité aux familles et aux seniors.",
+        "source_url": "https://lebonsenstoulousain.fr/programme",
+        "cout_estime": null
+      },
+      {
+        "thematique": "democratie",
+        "titre": "Maires d'arrondissement élus",
+        "description": "Instauration de maires d'arrondissement élus directement par les habitants pour rapprocher la décision des citoyens.",
+        "source_url": "https://lebonsenstoulousain.fr/programme",
+        "cout_estime": null
+      }
+    ]
+  },
+  {
+    "id": "cottrel",
+    "commune_slug": "toulouse",
+    "nom": "Cottrel",
+    "prenom": "Arthur",
+    "photo": "/images/candidats/cottrel-arthur.jpg",
+    "parti": "Reconquête!",
+    "slogan": "Reconquérir Toulouse",
+    "bio": "Responsable départemental de Reconquête! en Haute-Garonne, Arthur Cottrel est le candidat du parti d'Éric Zemmour aux municipales toulousaines. Il porte des orientations axées sur l'identité, la sécurité et la maîtrise de l'immigration.",
+    "profession": "Cadre",
+    "site_web": "https://reconquete-toulouse.fr",
+    "mandats_precedents": [],
+    "propositions": [
+      {
+        "thematique": "securite",
+        "titre": "Sécurité maximale et fermeté",
+        "description": "Renforcement massif de la police municipale, vidéosurveillance étendue, politique de fermeté contre la délinquance et les incivilités.",
+        "source_url": "https://reconquete-toulouse.fr/programme",
+        "cout_estime": null
+      },
+      {
+        "thematique": "urbanisme",
+        "titre": "Préservation du patrimoine et du cadre de vie",
+        "description": "Protection du patrimoine architectural toulousain, opposition aux projets qui dénaturent l'identité de la Ville rose.",
+        "source_url": "https://reconquete-toulouse.fr/programme",
+        "cout_estime": null
+      }
+    ]
+  },
+  {
+    "id": "nouvel-air",
+    "commune_slug": "toulouse",
+    "nom": "Meilhac & Allorant",
+    "prenom": "Lambert & Domitille",
+    "photo": "/images/candidats/nouvel-air.jpg",
+    "parti": "Nouvel Air (Equinoxe)",
+    "slogan": "Un nouvel air pour Toulouse",
+    "bio": "Lambert Meilhac et Domitille Allorant portent ensemble la liste « Nouvel Air » issue du mouvement Equinoxe. Ils défendent une approche centrée sur la transition écologique, la mobilité douce et la réduction de la place de la voiture en ville.",
+    "profession": "Société civile",
+    "site_web": "https://toulouse-nouvel-air.fr",
+    "mandats_precedents": [],
+    "propositions": [
+      {
+        "thematique": "transport",
+        "titre": "100 000 voitures en moins dans Toulouse",
+        "description": "Objectif ambitieux de retirer 100 000 voitures de la circulation toulousaine via le développement massif des transports en commun, du vélo et des mobilités douces.",
+        "source_url": "https://toulouse-nouvel-air.fr/programme",
+        "cout_estime": null
+      },
+      {
+        "thematique": "ecologie",
+        "titre": "Végétalisation massive de la ville",
+        "description": "Plan ambitieux de végétalisation, désimperméabilisation des sols et création de corridors écologiques dans la ville.",
+        "source_url": "https://toulouse-nouvel-air.fr/programme",
+        "cout_estime": null
+      }
+    ]
+  },
+  {
+    "id": "pezzin",
+    "commune_slug": "toulouse",
+    "nom": "Pezzin",
+    "prenom": "Pierre",
+    "photo": "/images/candidats/pezzin-pierre.jpg",
+    "parti": "Pour un Langage Citoyen",
+    "slogan": "Pour un langage citoyen",
+    "bio": "Pierre Pezzin est le fondateur du mouvement « Pour un Langage Citoyen ». Il porte une candidature citoyenne centrée sur la démocratie participative, la transparence de la gestion municipale et le triplement du budget participatif.",
+    "profession": "Citoyen engagé",
+    "site_web": "https://pour-un-langage-citoyen.fr",
+    "mandats_precedents": [],
+    "propositions": [
+      {
+        "thematique": "democratie",
+        "titre": "Triplement du budget participatif",
+        "description": "Tripler le budget participatif actuel pour donner aux citoyens un réel pouvoir de décision sur les investissements de leur quartier.",
+        "source_url": "https://pour-un-langage-citoyen.fr/programme",
+        "cout_estime": null
+      },
+      {
+        "thematique": "democratie",
+        "titre": "Transparence totale de la gestion municipale",
+        "description": "Publication en open data de l'intégralité des dépenses municipales, diffusion en direct des conseils municipaux et droit de pétition citoyenne.",
+        "source_url": "https://pour-un-langage-citoyen.fr/programme",
+        "cout_estime": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  { "slug": "transport", "nom": "Transports & Mobilité", "icone": "🚇", "ordre": 1 },
+  { "slug": "ecologie", "nom": "Écologie & Environnement", "icone": "🌿", "ordre": 2 },
+  { "slug": "securite", "nom": "Sécurité", "icone": "🛡️", "ordre": 3 },
+  { "slug": "urbanisme", "nom": "Urbanisme & Logement", "icone": "🏗️", "ordre": 4 },
+  { "slug": "education", "nom": "Éducation & Jeunesse", "icone": "🎓", "ordre": 5 },
+  { "slug": "culture", "nom": "Culture & Patrimoine", "icone": "🎭", "ordre": 6 },
+  { "slug": "fiscalite", "nom": "Fiscalité locale", "icone": "💶", "ordre": 7 },
+  { "slug": "social", "nom": "Solidarité & Social", "icone": "🤝", "ordre": 8 },
+  { "slug": "numerique", "nom": "Numérique & Innovation", "icone": "💻", "ordre": 9 },
+  { "slug": "democratie", "nom": "Démocratie locale", "icone": "🗳️", "ordre": 10 }
+]
