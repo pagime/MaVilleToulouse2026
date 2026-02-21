@@ -110,7 +110,7 @@ function partager() {
           >
             <div class="flex-1 pr-4">
               <span class="text-xs text-secondary font-medium">
-                {{ getThematique(question.thematique)?.icone }}
+                <span class="inline-block w-2.5 h-2.5 rounded-full mr-1.5" :style="{ backgroundColor: getThematique(question.thematique)?.couleur }"></span>
                 {{ getThematique(question.thematique)?.nom }}
               </span>
               <p class="text-sm font-medium text-neutral-800 mt-1">{{ question.texte }}</p>

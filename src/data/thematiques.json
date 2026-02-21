@@ -1,12 +1,12 @@
 [
-  { "slug": "transport", "nom": "Transports & Mobilité", "icone": "🚇", "ordre": 1 },
-  { "slug": "ecologie", "nom": "Écologie & Environnement", "icone": "🌿", "ordre": 2 },
-  { "slug": "securite", "nom": "Sécurité", "icone": "🛡️", "ordre": 3 },
-  { "slug": "urbanisme", "nom": "Urbanisme & Logement", "icone": "🏗️", "ordre": 4 },
-  { "slug": "education", "nom": "Éducation & Jeunesse", "icone": "🎓", "ordre": 5 },
-  { "slug": "culture", "nom": "Culture & Patrimoine", "icone": "🎭", "ordre": 6 },
-  { "slug": "fiscalite", "nom": "Fiscalité locale", "icone": "💶", "ordre": 7 },
-  { "slug": "social", "nom": "Solidarité & Social", "icone": "🤝", "ordre": 8 },
-  { "slug": "numerique", "nom": "Numérique & Innovation", "icone": "💻", "ordre": 9 },
-  { "slug": "democratie", "nom": "Démocratie locale", "icone": "🗳️", "ordre": 10 }
+  { "slug": "transport", "nom": "Transports & Mobilité", "couleur": "#2563EB", "ordre": 1 },
+  { "slug": "ecologie", "nom": "Écologie & Environnement", "couleur": "#16A34A", "ordre": 2 },
+  { "slug": "securite", "nom": "Sécurité", "couleur": "#DC2626", "ordre": 3 },
+  { "slug": "urbanisme", "nom": "Urbanisme & Logement", "couleur": "#9333EA", "ordre": 4 },
+  { "slug": "education", "nom": "Éducation & Jeunesse", "couleur": "#EA580C", "ordre": 5 },
+  { "slug": "culture", "nom": "Culture & Patrimoine", "couleur": "#DB2777", "ordre": 6 },
+  { "slug": "fiscalite", "nom": "Fiscalité locale", "couleur": "#CA8A04", "ordre": 7 },
+  { "slug": "social", "nom": "Solidarité & Social", "couleur": "#0891B2", "ordre": 8 },
+  { "slug": "numerique", "nom": "Numérique & Innovation", "couleur": "#4F46E5", "ordre": 9 },
+  { "slug": "democratie", "nom": "Démocratie locale", "couleur": "#059669", "ordre": 10 }
 ]

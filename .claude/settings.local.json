@@ -19,7 +19,25 @@
       "Bash(npm run build:*)",
       "Bash(git init:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(gh repo create:*)",
+      "Bash(npx wrangler:*)",
+      "Bash(npx vercel:*)",
+      "Bash(CLOUDFLARE_API_TOKEN=\"NnXq1N1RypDbqqat4OLoFvQmSqerzmW40VJlKTyI\" npx wrangler pages project create maville2026 --production-branch=master)",
+      "Bash(CLOUDFLARE_API_TOKEN=\"NnXq1N1RypDbqqat4OLoFvQmSqerzmW40VJlKTyI\" npx wrangler pages deploy:*)",
+      "WebFetch(domain:commons.wikimedia.org)",
+      "WebFetch(domain:www.assemblee-nationale.fr)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:www.europarl.europa.eu)",
+      "WebFetch(domain:metropole.toulouse.fr)",
+      "WebFetch(domain:fr.m.wikipedia.org)",
+      "Bash(curl:*)",
+      "Bash(python3:*)",
+      "WebFetch(domain:www.nosdeputes.fr)",
+      "WebFetch(domain:www.toulouse-nouvel-air.fr)",
+      "WebFetch(domain:www.revolutionpermanente.fr)",
+      "Bash(cd /c/Users/Pablo/Documents/Developpement/NSFW/MaVille2026 && CLOUDFLARE_API_TOKEN=\"NnXq1N1RypDbqqat4OLoFvQmSqerzmW40VJlKTyI\" npx wrangler pages deploy dist --project-name=maville2026 --branch=master --commit-dirty=true --commit-message=\"Enrich candidates, replace emojis with colors, fix URLs\" 2>&1)",
+      "Bash(cd /c/Users/Pablo/Documents/Developpement/NSFW/MaVille2026 && git add -A && git commit -m \"$\\(cat <<'EOF'\nEnrich candidate data, replace emojis with colors, fix source URLs\n\n- Detailed bios with real facts from press research for all 7 candidates\n- More proposals per candidate with real source URLs \\(lejournaltoulousain, francebleu, etc.\\)\n- Replace emoji icons in thematiques with colored dots\n- Fix quiz source URLs to point to real program pages\n- Adjust quiz positions based on research \\(Pezzin transport, Moudenc ecology, Briancon security\\)\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\" && git push 2>&1)"
     ]
   }
 }
