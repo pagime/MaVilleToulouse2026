@@ -13,7 +13,7 @@ const initials = computed(() => {
 <template>
   <router-link
     :to="{ name: 'candidat', params: { id: candidat.id } }"
-    class="block bg-white rounded-xl shadow-sm border border-neutral-200 hover:shadow-md transition-shadow duration-200 overflow-hidden focus:outline-2 focus:outline-primary dark:bg-neutral-800 dark:border-neutral-700"
+    class="block bg-white rounded-xl shadow-sm border border-neutral-200 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200 overflow-hidden focus:outline-2 focus:outline-primary dark:bg-neutral-800 dark:border-neutral-700"
     :aria-label="`Voir le profil de ${candidat.prenom} ${candidat.nom}`"
   >
     <div class="aspect-[4/3] bg-neutral-100 flex items-center justify-center overflow-hidden dark:bg-neutral-700">
@@ -25,7 +25,7 @@ const initials = computed(() => {
         loading="lazy"
         @error="$event.target.style.display = 'none'; $event.target.nextElementSibling.style.display = 'flex'"
       />
-      <div class="w-full h-full flex items-center justify-center bg-primary/10">
+      <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-primary/20 to-primary/5">
         <span class="text-4xl font-bold text-primary">{{ initials }}</span>
       </div>
     </div>
@@ -44,5 +44,6 @@ const initials = computed(() => {
         {{ candidat.source_status === 'officiel' ? 'Programme officiel' : 'Déclarations publiques' }}
       </span>
     </div>
+    <div class="h-1 bg-primary"></div>
   </router-link>
 </template>
