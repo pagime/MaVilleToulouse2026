@@ -1,13 +1,23 @@
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
+import { useRoute } from 'vue-router'
 import ComparateurTable from '../components/ComparateurTable.vue'
 import candidatsData from '../data/candidats.json'
 import thematiquesData from '../data/thematiques.json'
 
+const route = useRoute()
 const allCandidats = candidatsData.filter(c => c.commune_slug === 'toulouse')
 const thematiques = thematiquesData.sort((a, b) => a.ordre - b.ordre)
+const validSlugs = thematiques.map(t => t.slug)
 const selectedIds = ref([])
 const selectedThematique = ref(null)
+
+onMounted(() => {
+  const param = route.query.thematique
+  if (param && validSlugs.includes(param)) {
+    selectedThematique.value = param
+  }
+})
 
 const selectedCandidats = computed(() =>
   selectedIds.value.map(id => allCandidats.find(c => c.id === id)).filter(Boolean)

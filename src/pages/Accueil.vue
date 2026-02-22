@@ -12,13 +12,58 @@ const { isReserve } = useReserve()
 const candidats = computed(() => shuffle(
   candidatsData.filter(c => c.commune_slug === 'toulouse')
 ))
+
+const enjeux = [
+  {
+    slug: 'transport',
+    color: '#2563EB',
+    title: 'Transports & gratuité',
+    description: 'Gratuité des transports Tisséo pour les jeunes ? RER métropolitain ? Les candidats ont des visions différentes de la mobilité.',
+    icon: 'M8 7h.01M8 11h.01M12 7h.01M12 11h.01M16 7h.01M16 11h.01M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z'
+  },
+  {
+    slug: 'urbanisme',
+    color: '#9333EA',
+    title: 'Logement & loyers',
+    description: 'Encadrement des loyers, Airbnb, logements sociaux : le logement est au centre de la campagne.',
+    icon: 'M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4'
+  },
+  {
+    slug: 'securite',
+    color: '#DC2626',
+    title: 'Sécurité & vidéosurveillance',
+    description: '1 caméra par rue (Moudenc) ou police de proximité (Piquemal, Briançon) ? Deux approches de la sécurité.',
+    icon: 'M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z'
+  },
+  {
+    slug: 'ecologie',
+    color: '#16A34A',
+    title: 'Écologie & canicules',
+    description: 'Végétalisation massive, rénovation thermique, 100 000 voitures en moins : comment adapter Toulouse au réchauffement ?',
+    icon: 'M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z'
+  },
+  {
+    slug: 'fiscalite',
+    color: '#CA8A04',
+    title: 'Fiscalité & impôts',
+    description: 'Geler la taxe foncière ? La baisser ? Taxer les logements vacants ? Les approches varient selon les candidats.',
+    icon: 'M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z'
+  },
+  {
+    slug: 'democratie',
+    color: '#059669',
+    title: 'Démocratie locale',
+    description: 'RIC local, budget participatif, coopératives de quartier : quel pouvoir pour les citoyens ?',
+    icon: 'M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z'
+  }
+]
 </script>
 
 <template>
   <div>
     <section class="text-center py-12 md:py-16">
       <h1 class="text-3xl md:text-5xl font-bold text-primary mb-4">
-        MaVilleToulouse2026 — Toulouse
+        Ma Ville Toulouse 2026
       </h1>
       <p class="text-lg md:text-xl text-neutral-600 dark:text-neutral-300 max-w-2xl mx-auto mb-8 leading-relaxed">
         Informez-vous sur les candidats aux élections municipales 2026,
@@ -100,36 +145,32 @@ const candidats = computed(() => shuffle(
     <section class="mb-10">
       <h2 class="text-xl font-bold text-neutral-800 dark:text-neutral-100 mb-4">Les grands enjeux de la campagne</h2>
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        <div class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-700 p-5">
-          <div class="w-3 h-3 rounded-full mb-3" style="background-color: #2563EB"></div>
-          <h3 class="font-semibold text-neutral-800 dark:text-neutral-100 mb-1">Transports & gratuité</h3>
-          <p class="text-sm text-neutral-600 dark:text-neutral-300">Gratuité des transports Tisséo pour les jeunes ? RER métropolitain ? Les candidats ont des visions différentes de la mobilité.</p>
-        </div>
-        <div class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-700 p-5">
-          <div class="w-3 h-3 rounded-full mb-3" style="background-color: #9333EA"></div>
-          <h3 class="font-semibold text-neutral-800 dark:text-neutral-100 mb-1">Logement & loyers</h3>
-          <p class="text-sm text-neutral-600 dark:text-neutral-300">Encadrement des loyers, Airbnb, logements sociaux : le logement est au centre de la campagne.</p>
-        </div>
-        <div class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-700 p-5">
-          <div class="w-3 h-3 rounded-full mb-3" style="background-color: #DC2626"></div>
-          <h3 class="font-semibold text-neutral-800 dark:text-neutral-100 mb-1">Sécurité & vidéosurveillance</h3>
-          <p class="text-sm text-neutral-600 dark:text-neutral-300">1 caméra par rue (Moudenc) ou police de proximité (Piquemal, Briançon) ? Deux approches de la sécurité.</p>
-        </div>
-        <div class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-700 p-5">
-          <div class="w-3 h-3 rounded-full mb-3" style="background-color: #16A34A"></div>
-          <h3 class="font-semibold text-neutral-800 dark:text-neutral-100 mb-1">Écologie & canicules</h3>
-          <p class="text-sm text-neutral-600 dark:text-neutral-300">Végétalisation massive, rénovation thermique, 100 000 voitures en moins : comment adapter Toulouse au réchauffement ?</p>
-        </div>
-        <div class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-700 p-5">
-          <div class="w-3 h-3 rounded-full mb-3" style="background-color: #CA8A04"></div>
-          <h3 class="font-semibold text-neutral-800 dark:text-neutral-100 mb-1">Fiscalité & impôts</h3>
-          <p class="text-sm text-neutral-600 dark:text-neutral-300">Geler la taxe foncière ? La baisser ? Taxer les logements vacants ? Les approches varient selon les candidats.</p>
-        </div>
-        <div class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-700 p-5">
-          <div class="w-3 h-3 rounded-full mb-3" style="background-color: #059669"></div>
-          <h3 class="font-semibold text-neutral-800 dark:text-neutral-100 mb-1">Démocratie locale</h3>
-          <p class="text-sm text-neutral-600 dark:text-neutral-300">RIC local, budget participatif, coopératives de quartier : quel pouvoir pour les citoyens ?</p>
-        </div>
+        <router-link
+          v-for="enjeu in enjeux"
+          :key="enjeu.slug"
+          :to="{ path: '/comparer', query: { thematique: enjeu.slug } }"
+          class="group bg-white dark:bg-neutral-800 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-700 overflow-hidden transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5"
+        >
+          <div class="h-1" :style="{ background: `linear-gradient(to right, ${enjeu.color}, transparent)` }"></div>
+          <div class="p-5">
+            <div
+              class="w-10 h-10 rounded-full flex items-center justify-center mb-3"
+              :style="{ backgroundColor: enjeu.color + '26' }"
+            >
+              <svg class="w-5 h-5" :style="{ color: enjeu.color }" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" :d="enjeu.icon" />
+              </svg>
+            </div>
+            <h3 class="font-semibold text-neutral-800 dark:text-neutral-100 mb-1">{{ enjeu.title }}</h3>
+            <p class="text-sm text-neutral-600 dark:text-neutral-300 mb-3">{{ enjeu.description }}</p>
+            <span class="inline-flex items-center text-sm font-medium transition-colors" :style="{ color: enjeu.color }">
+              Comparer les programmes
+              <svg class="w-4 h-4 ml-1 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+              </svg>
+            </span>
+          </div>
+        </router-link>
       </div>
     </section>
 
