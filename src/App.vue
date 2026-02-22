@@ -7,7 +7,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <header class="bg-white border-b border-neutral-200 sticky top-0 z-50">
       <nav class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
         <RouterLink to="/" class="flex items-center gap-2 font-bold text-primary text-lg">
-          MaVille2026
+          MaVilleToulouse2026
         </RouterLink>
         <div class="flex items-center gap-1 sm:gap-4 text-sm">
           <RouterLink
@@ -35,7 +35,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <footer class="bg-white border-t border-neutral-200 mt-auto">
       <div class="max-w-6xl mx-auto px-4 sm:px-6 py-6">
         <div class="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-neutral-500">
-          <p>MaVille2026 — Projet citoyen indépendant</p>
+          <p>MaVilleToulouse2026 — Projet citoyen indépendant</p>
           <div class="flex gap-6">
             <RouterLink to="/mentions-legales" class="hover:text-primary transition-colors">
               Mentions légales & Méthodologie

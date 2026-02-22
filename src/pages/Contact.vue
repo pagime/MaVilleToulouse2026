@@ -24,7 +24,7 @@
         <strong>Engagement :</strong> Toute demande de correction sera traitée sous 48h.
       </p>
       <a
-        href="mailto:contact@maville2026.example.fr?subject=Droit%20de%20réponse%20-%20MaVille2026"
+        href="mailto:contact@mavilletoulouse2026.example.fr?subject=Droit%20de%20réponse%20-%20MaVilleToulouse2026"
         class="inline-flex items-center px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary-light transition-colors"
       >
         Nous écrire par email
@@ -38,7 +38,7 @@
         N'hésitez pas à nous contacter.
       </p>
       <a
-        href="mailto:contact@maville2026.example.fr?subject=Question%20-%20MaVille2026"
+        href="mailto:contact@mavilletoulouse2026.example.fr?subject=Question%20-%20MaVilleToulouse2026"
         class="inline-flex items-center px-6 py-3 border-2 border-primary text-primary font-semibold rounded-lg hover:bg-primary/5 transition-colors"
       >
         Nous contacter

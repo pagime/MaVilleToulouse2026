@@ -18,7 +18,7 @@ const candidats = computed(() => shuffle(
   <div>
     <section class="text-center py-12 md:py-16">
       <h1 class="text-3xl md:text-5xl font-bold text-primary mb-4">
-        MaVille2026 — Toulouse
+        MaVilleToulouse2026 — Toulouse
       </h1>
       <p class="text-lg md:text-xl text-neutral-600 max-w-2xl mx-auto mb-8 leading-relaxed">
         Informez-vous sur les candidats aux élections municipales 2026,

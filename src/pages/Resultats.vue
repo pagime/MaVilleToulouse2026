@@ -48,7 +48,7 @@ function refaireQuiz() {
 function partager() {
   if (navigator.share) {
     navigator.share({
-      title: 'MaVille2026 — Quiz de compatibilité',
+      title: 'MaVilleToulouse2026 — Quiz de compatibilité',
       text: "Découvrez avec quel candidat vous êtes le plus compatible pour les municipales 2026 à Toulouse !",
       url: window.location.origin
     })

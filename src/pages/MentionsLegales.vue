@@ -20,7 +20,7 @@
       <h2 class="text-xl font-semibold text-neutral-800 mb-3">Déclaration de non-affiliation</h2>
       <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5 text-sm text-neutral-700">
         <p>
-          MaVille2026 est un projet citoyen indépendant. Il n'est affilié à aucun parti politique,
+          MaVilleToulouse2026 est un projet citoyen indépendant. Il n'est affilié à aucun parti politique,
           aucun candidat, aucune institution publique ni aucune organisation militante.
           L'objectif est de fournir une information factuelle et neutre pour aider les citoyens
           dans leur réflexion.
@@ -95,7 +95,7 @@
     <section class="mb-8">
       <h2 class="text-xl font-semibold text-neutral-800 mb-3">Protection des données (RGPD)</h2>
       <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5 text-sm text-neutral-700 space-y-2">
-        <p>MaVille2026 respecte votre vie privée :</p>
+        <p>MaVilleToulouse2026 respecte votre vie privée :</p>
         <ul class="list-disc list-inside space-y-1">
           <li>Aucune donnée personnelle n'est collectée ni stockée</li>
           <li>Aucun cookie de tracking n'est utilisé</li>
