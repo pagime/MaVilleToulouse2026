@@ -3,13 +3,13 @@
 
 <template>
   <div class="prose prose-neutral max-w-3xl mx-auto">
-    <h1 class="text-2xl md:text-3xl font-bold text-neutral-900 mb-8">
+    <h1 class="text-2xl md:text-3xl font-bold text-neutral-900 mb-8 dark:text-white">
       Mentions légales & Méthodologie
     </h1>
 
     <section class="mb-8">
-      <h2 class="text-xl font-semibold text-neutral-800 mb-3">Éditeur</h2>
-      <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5 text-sm text-neutral-700 space-y-1">
+      <h2 class="text-xl font-semibold text-neutral-800 mb-3 dark:text-neutral-100">Éditeur</h2>
+      <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5 text-sm text-neutral-700 space-y-1 dark:text-neutral-200 dark:border-neutral-700 dark:bg-neutral-800">
         <p><strong>Nom :</strong> Pablo MENDEZ</p>
         <p><strong>Contact :</strong> pablomzpv@gmail.com</p>
         <p><strong>Hébergeur :</strong> Cloudflare Pages (Cloudflare, Inc. — 101 Townsend St, San Francisco, CA 94107, USA)</p>
@@ -17,8 +17,8 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-xl font-semibold text-neutral-800 mb-3">Déclaration de non-affiliation</h2>
-      <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5 text-sm text-neutral-700">
+      <h2 class="text-xl font-semibold text-neutral-800 mb-3 dark:text-neutral-100">Déclaration de non-affiliation</h2>
+      <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5 text-sm text-neutral-700 dark:bg-neutral-800 dark:text-neutral-200 dark:border-neutral-700">
         <p>
           MaVilleToulouse2026 est un projet citoyen indépendant. Il n'est affilié à aucun parti politique,
           aucun candidat, aucune institution publique ni aucune organisation militante.
@@ -29,8 +29,8 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-xl font-semibold text-neutral-800 mb-3">Méthodologie de l'algorithme</h2>
-      <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5 text-sm text-neutral-700 space-y-3">
+      <h2 class="text-xl font-semibold text-neutral-800 mb-3 dark:text-neutral-100">Méthodologie de l'algorithme</h2>
+      <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5 text-sm text-neutral-700 space-y-3 dark:border-neutral-700 dark:text-neutral-200 dark:bg-neutral-800">
         <p>
           Le quiz de compatibilité compare vos réponses avec les positions attribuées à chaque
           candidat sur une échelle de -2 (fortement contre) à +2 (fortement pour).
@@ -46,7 +46,7 @@
             (de 1 à 5).
           </li>
           <li>
-            Le score de compatibilité est : <code class="bg-neutral-100 px-1 rounded">(1 - distance/4) × importance</code>
+            Le score de compatibilité est : <code class="bg-neutral-100 px-1 rounded dark:bg-neutral-700">(1 - distance/4) × importance</code>
           </li>
           <li>
             Le pourcentage final est la somme des scores pondérés divisée par la somme des poids,
@@ -61,8 +61,8 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-xl font-semibold text-neutral-800 mb-3">Sources</h2>
-      <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5 text-sm text-neutral-700">
+      <h2 class="text-xl font-semibold text-neutral-800 mb-3 dark:text-neutral-100">Sources</h2>
+      <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5 text-sm text-neutral-700 dark:border-neutral-700 dark:text-neutral-200 dark:bg-neutral-800">
         <p>
           Les positions attribuées aux candidats sont basées sur leurs programmes officiels
           publiés sur leurs sites de campagne, leurs déclarations publiques (interviews, débats,
@@ -77,8 +77,8 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-xl font-semibold text-neutral-800 mb-3">Droit de réponse</h2>
-      <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5 text-sm text-neutral-700">
+      <h2 class="text-xl font-semibold text-neutral-800 mb-3 dark:text-neutral-100">Droit de réponse</h2>
+      <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5 text-sm text-neutral-700 dark:text-neutral-200 dark:border-neutral-700 dark:bg-neutral-800">
         <p>
           Les positions attribuées aux candidats sont basées sur leurs programmes officiels
           et déclarations publiques. Toute demande de correction sera traitée sous 48h.
@@ -93,8 +93,8 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-xl font-semibold text-neutral-800 mb-3">Protection des données (RGPD)</h2>
-      <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5 text-sm text-neutral-700 space-y-2">
+      <h2 class="text-xl font-semibold text-neutral-800 mb-3 dark:text-neutral-100">Protection des données (RGPD)</h2>
+      <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5 text-sm text-neutral-700 space-y-2 dark:border-neutral-700 dark:text-neutral-200 dark:bg-neutral-800">
         <p>MaVilleToulouse2026 respecte votre vie privée :</p>
         <ul class="list-disc list-inside space-y-1">
           <li>Aucune donnée personnelle n'est collectée ni stockée</li>
@@ -108,8 +108,8 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-xl font-semibold text-neutral-800 mb-3">Distinction quiz / sondage</h2>
-      <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5 text-sm text-neutral-700">
+      <h2 class="text-xl font-semibold text-neutral-800 mb-3 dark:text-neutral-100">Distinction quiz / sondage</h2>
+      <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5 text-sm text-neutral-700 dark:border-neutral-700 dark:text-neutral-200 dark:bg-neutral-800">
         <p>
           Cet outil ne constitue pas un sondage au sens de la loi du 19 juillet 1977.
           Il s'agit d'un outil d'aide à la décision individuelle. Les résultats sont
@@ -121,8 +121,8 @@
     </section>
 
     <section class="mb-8">
-      <h2 class="text-xl font-semibold text-neutral-800 mb-3">Période de réserve</h2>
-      <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5 text-sm text-neutral-700">
+      <h2 class="text-xl font-semibold text-neutral-800 mb-3 dark:text-neutral-100">Période de réserve</h2>
+      <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5 text-sm text-neutral-700 dark:border-neutral-700 dark:text-neutral-200 dark:bg-neutral-800">
         <p>
           Conformément à l'article L49 du Code électoral, le quiz de compatibilité est
           automatiquement désactivé la veille et le jour du scrutin (1er et 2nd tour).

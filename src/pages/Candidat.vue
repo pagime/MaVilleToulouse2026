@@ -59,7 +59,7 @@ function closeAll() {
     </router-link>
 
     <!-- En-tête candidat -->
-    <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-6 md:p-8 mb-6">
+    <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-6 md:p-8 mb-6 dark:bg-neutral-800 dark:border-neutral-700">
       <div class="flex flex-col md:flex-row gap-6">
         <div class="w-32 h-32 md:w-40 md:h-40 rounded-xl bg-primary/10 flex items-center justify-center shrink-0 overflow-hidden">
           <img
@@ -72,12 +72,20 @@ function closeAll() {
           <span class="text-4xl font-bold text-primary">{{ initials }}</span>
         </div>
         <div class="flex-1">
-          <h1 class="text-2xl md:text-3xl font-bold text-neutral-900">
+          <h1 class="text-2xl md:text-3xl font-bold text-neutral-900 dark:text-white">
             {{ candidat.prenom }} {{ candidat.nom }}
           </h1>
           <p class="text-lg text-secondary font-medium mt-1">{{ candidat.parti }}</p>
-          <p class="text-neutral-500 italic mt-1">{{ candidat.slogan }}</p>
-          <p class="text-sm text-neutral-600 mt-2">{{ candidat.profession }}</p>
+          <p class="text-neutral-500 italic mt-1 dark:text-neutral-400">{{ candidat.slogan }}</p>
+          <p class="text-sm text-neutral-600 mt-2 dark:text-neutral-300">{{ candidat.profession }}</p>
+          <span
+            class="inline-block mt-2 text-xs px-2 py-1 rounded-full font-medium"
+            :class="candidat.source_status === 'officiel'
+              ? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400'
+              : 'bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400'"
+          >
+            {{ candidat.source_status === 'officiel' ? 'Programme officiel vérifié' : 'Basé sur les déclarations publiques' }}
+          </span>
           <div class="flex flex-wrap gap-3 mt-4">
             <a
               v-if="candidat.site_web"
@@ -104,12 +112,12 @@ function closeAll() {
 
     <!-- Bio + chiffres clés -->
     <div class="grid md:grid-cols-3 gap-6 mb-6">
-      <div class="md:col-span-2 bg-white rounded-xl shadow-sm border border-neutral-200 p-6">
-        <h2 class="text-lg font-bold text-neutral-800 mb-3">Biographie</h2>
-        <p class="text-sm text-neutral-700 leading-relaxed">{{ candidat.bio }}</p>
+      <div class="md:col-span-2 bg-white rounded-xl shadow-sm border border-neutral-200 p-6 dark:bg-neutral-800 dark:border-neutral-700">
+        <h2 class="text-lg font-bold text-neutral-800 mb-3 dark:text-neutral-100">Biographie</h2>
+        <p class="text-sm text-neutral-700 leading-relaxed dark:text-neutral-200">{{ candidat.bio }}</p>
         <div v-if="candidat.mandats_precedents?.length" class="mt-4">
-          <h3 class="text-sm font-semibold text-neutral-700 mb-2">Mandats et expérience :</h3>
-          <ul class="text-sm text-neutral-600 space-y-1">
+          <h3 class="text-sm font-semibold text-neutral-700 mb-2 dark:text-neutral-200">Mandats et expérience :</h3>
+          <ul class="text-sm text-neutral-600 space-y-1 dark:text-neutral-300">
             <li v-for="mandat in candidat.mandats_precedents" :key="mandat" class="flex items-start gap-2">
               <span class="text-primary mt-1">-</span>
               <span>{{ mandat }}</span>
@@ -117,23 +125,23 @@ function closeAll() {
           </ul>
         </div>
         <div v-else class="mt-4">
-          <p class="text-sm text-neutral-500 italic">Pas de mandat politique précédent.</p>
+          <p class="text-sm text-neutral-500 italic dark:text-neutral-400">Pas de mandat politique précédent.</p>
         </div>
       </div>
-      <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-6">
-        <h2 class="text-lg font-bold text-neutral-800 mb-3">En résumé</h2>
+      <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-6 dark:border-neutral-700 dark:bg-neutral-800">
+        <h2 class="text-lg font-bold text-neutral-800 mb-3 dark:text-neutral-100">En résumé</h2>
         <div class="space-y-4">
           <div>
             <p class="text-3xl font-bold text-primary">{{ propositionCount }}</p>
-            <p class="text-sm text-neutral-600">propositions détaillées</p>
+            <p class="text-sm text-neutral-600 dark:text-neutral-300">propositions détaillées</p>
           </div>
           <div>
             <p class="text-3xl font-bold text-primary">{{ thematiqueCoverage }}/10</p>
-            <p class="text-sm text-neutral-600">thématiques couvertes</p>
+            <p class="text-sm text-neutral-600 dark:text-neutral-300">thématiques couvertes</p>
           </div>
           <div>
             <p class="text-3xl font-bold text-primary">{{ candidat.mandats_precedents?.length || 0 }}</p>
-            <p class="text-sm text-neutral-600">mandats précédents</p>
+            <p class="text-sm text-neutral-600 dark:text-neutral-300">mandats précédents</p>
           </div>
         </div>
       </div>
@@ -141,7 +149,7 @@ function closeAll() {
 
     <!-- Programme détaillé -->
     <div class="mb-4 flex items-center justify-between">
-      <h2 class="text-xl font-bold text-neutral-800">Programme par thématique</h2>
+      <h2 class="text-xl font-bold text-neutral-800 dark:text-neutral-100">Programme par thématique</h2>
       <div class="flex gap-2 text-xs">
         <button @click="openAll" class="text-secondary hover:text-primary transition-colors cursor-pointer">Tout ouvrir</button>
         <span class="text-neutral-300">|</span>
@@ -153,15 +161,15 @@ function closeAll() {
       <div
         v-for="thematique in thematiques"
         :key="thematique.slug"
-        class="bg-white rounded-xl shadow-sm border border-neutral-200 overflow-hidden"
+        class="bg-white rounded-xl shadow-sm border border-neutral-200 overflow-hidden dark:bg-neutral-800 dark:border-neutral-700"
       >
         <button
           @click="toggleTheme(thematique.slug)"
-          class="w-full flex items-center justify-between px-5 py-4 text-left hover:bg-neutral-50 transition-colors cursor-pointer"
+          class="w-full flex items-center justify-between px-5 py-4 text-left hover:bg-neutral-50 transition-colors cursor-pointer dark:hover:bg-neutral-700"
           :aria-expanded="openThemes[thematique.slug]"
         >
           <div class="flex items-center gap-3">
-            <span class="font-semibold text-neutral-800">
+            <span class="font-semibold text-neutral-800 dark:text-neutral-100">
               <span class="inline-block w-3 h-3 rounded-full mr-2" :style="{ backgroundColor: thematique.couleur }"></span>
               {{ thematique.nom }}
             </span>
@@ -171,29 +179,29 @@ function closeAll() {
             >
               {{ getPropositions(thematique.slug).length }} proposition{{ getPropositions(thematique.slug).length > 1 ? 's' : '' }}
             </span>
-            <span v-else class="text-xs bg-neutral-100 text-neutral-400 px-2 py-0.5 rounded-full">
+            <span v-else class="text-xs bg-neutral-100 text-neutral-400 px-2 py-0.5 rounded-full dark:bg-neutral-700 dark:text-neutral-500">
               Pas de position
             </span>
           </div>
           <svg
-            class="w-5 h-5 text-neutral-400 transition-transform duration-200"
+            class="w-5 h-5 text-neutral-400 transition-transform duration-200 dark:text-neutral-500"
             :class="{ 'rotate-180': openThemes[thematique.slug] }"
             fill="none" viewBox="0 0 24 24" stroke="currentColor"
           >
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
           </svg>
         </button>
-        <div v-if="openThemes[thematique.slug]" class="px-5 pb-5 border-t border-neutral-100">
+        <div v-if="openThemes[thematique.slug]" class="px-5 pb-5 border-t border-neutral-100 dark:border-neutral-700">
           <div v-if="getPropositions(thematique.slug).length">
             <div
               v-for="prop in getPropositions(thematique.slug)"
               :key="prop.titre"
               class="pt-4"
             >
-              <h4 class="font-semibold text-neutral-800">{{ prop.titre }}</h4>
-              <p class="text-sm text-neutral-600 mt-1 leading-relaxed">{{ prop.description }}</p>
-              <div class="flex flex-wrap gap-4 mt-2 text-xs text-neutral-500">
-                <span v-if="prop.cout_estime" class="inline-flex items-center gap-1 bg-neutral-100 px-2 py-1 rounded">
+              <h4 class="font-semibold text-neutral-800 dark:text-neutral-100">{{ prop.titre }}</h4>
+              <p class="text-sm text-neutral-600 mt-1 leading-relaxed dark:text-neutral-300">{{ prop.description }}</p>
+              <div class="flex flex-wrap gap-4 mt-2 text-xs text-neutral-500 dark:text-neutral-400">
+                <span v-if="prop.cout_estime" class="inline-flex items-center gap-1 bg-neutral-100 px-2 py-1 rounded dark:bg-neutral-700">
                   Coût estimé : {{ prop.cout_estime }}
                 </span>
                 <a
@@ -210,7 +218,7 @@ function closeAll() {
               </div>
             </div>
           </div>
-          <p v-else class="pt-4 text-sm text-neutral-400 italic">
+          <p v-else class="pt-4 text-sm text-neutral-400 italic dark:text-neutral-500">
             Ce candidat n'a pas publié de proposition sur ce thème.
           </p>
         </div>
@@ -219,7 +227,7 @@ function closeAll() {
   </div>
 
   <div v-else class="text-center py-16">
-    <p class="text-neutral-500">Candidat non trouvé.</p>
+    <p class="text-neutral-500 dark:text-neutral-400">Candidat non trouvé.</p>
     <router-link to="/" class="text-primary hover:underline mt-4 inline-block">
       Retour à l'accueil
     </router-link>

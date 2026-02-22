@@ -20,7 +20,7 @@ const candidats = computed(() => shuffle(
       <h1 class="text-3xl md:text-5xl font-bold text-primary mb-4">
         MaVilleToulouse2026 — Toulouse
       </h1>
-      <p class="text-lg md:text-xl text-neutral-600 max-w-2xl mx-auto mb-8 leading-relaxed">
+      <p class="text-lg md:text-xl text-neutral-600 dark:text-neutral-300 max-w-2xl mx-auto mb-8 leading-relaxed">
         Informez-vous sur les candidats aux élections municipales 2026,
         comparez leurs programmes et découvrez avec quel projet vous êtes
         le plus compatible.
@@ -44,29 +44,45 @@ const candidats = computed(() => shuffle(
 
     <ReserveBanner />
 
+    <!-- Bannière programmes provisoires -->
+    <section class="mb-6">
+      <div class="bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-700 rounded-xl p-4 flex items-start gap-3">
+        <svg class="w-5 h-5 text-amber-500 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z" />
+        </svg>
+        <div>
+          <p class="text-sm font-semibold text-amber-800 dark:text-amber-200">Programmes provisoires</p>
+          <p class="text-xs text-amber-700 dark:text-amber-300 mt-1">
+            Les positions des candidats sont actuellement basées sur leurs déclarations publiques et programmes publiés.
+            Les professions de foi officielles seront déposées le <strong>26 février 2026</strong> — les données seront mises à jour à cette date.
+          </p>
+        </div>
+      </div>
+    </section>
+
     <!-- Contexte électoral -->
     <section class="mb-10">
-      <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-6">
-        <h2 class="text-xl font-bold text-neutral-800 mb-4">Les municipales 2026 à Toulouse</h2>
+      <div class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-700 p-6">
+        <h2 class="text-xl font-bold text-neutral-800 dark:text-neutral-100 mb-4">Les municipales 2026 à Toulouse</h2>
         <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
-          <div class="bg-accent/50 rounded-lg p-4 text-center">
+          <div class="bg-accent/50 dark:bg-primary/10 rounded-lg p-4 text-center">
             <p class="text-2xl font-bold text-primary">7</p>
-            <p class="text-sm text-neutral-600">Candidats déclarés</p>
+            <p class="text-sm text-neutral-600 dark:text-neutral-300">Candidats déclarés</p>
           </div>
-          <div class="bg-accent/50 rounded-lg p-4 text-center">
+          <div class="bg-accent/50 dark:bg-primary/10 rounded-lg p-4 text-center">
             <p class="text-2xl font-bold text-primary">14 mars</p>
-            <p class="text-sm text-neutral-600">1er tour</p>
+            <p class="text-sm text-neutral-600 dark:text-neutral-300">1er tour</p>
           </div>
-          <div class="bg-accent/50 rounded-lg p-4 text-center">
+          <div class="bg-accent/50 dark:bg-primary/10 rounded-lg p-4 text-center">
             <p class="text-2xl font-bold text-primary">21 mars</p>
-            <p class="text-sm text-neutral-600">2nd tour</p>
+            <p class="text-sm text-neutral-600 dark:text-neutral-300">2nd tour</p>
           </div>
-          <div class="bg-accent/50 rounded-lg p-4 text-center">
+          <div class="bg-accent/50 dark:bg-primary/10 rounded-lg p-4 text-center">
             <p class="text-2xl font-bold text-primary">~500 000</p>
-            <p class="text-sm text-neutral-600">Habitants concernés</p>
+            <p class="text-sm text-neutral-600 dark:text-neutral-300">Habitants concernés</p>
           </div>
         </div>
-        <div class="text-sm text-neutral-600 space-y-2">
+        <div class="text-sm text-neutral-600 dark:text-neutral-300 space-y-2">
           <p>
             Les élections municipales de 2026 détermineront le prochain maire de Toulouse et les 69 conseillers municipaux pour un mandat de 6 ans (2026-2032).
             Le maire sortant <strong>Jean-Luc Moudenc</strong> (divers droite), en place depuis 2014, brigue un troisième mandat.
@@ -82,44 +98,44 @@ const candidats = computed(() => shuffle(
 
     <!-- Thèmes clés -->
     <section class="mb-10">
-      <h2 class="text-xl font-bold text-neutral-800 mb-4">Les grands enjeux de la campagne</h2>
+      <h2 class="text-xl font-bold text-neutral-800 dark:text-neutral-100 mb-4">Les grands enjeux de la campagne</h2>
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5">
+        <div class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-700 p-5">
           <div class="w-3 h-3 rounded-full mb-3" style="background-color: #2563EB"></div>
-          <h3 class="font-semibold text-neutral-800 mb-1">Transports & gratuité</h3>
-          <p class="text-sm text-neutral-600">Gratuité des transports Tisséo pour les jeunes ? RER métropolitain ? Les candidats ont des visions différentes de la mobilité.</p>
+          <h3 class="font-semibold text-neutral-800 dark:text-neutral-100 mb-1">Transports & gratuité</h3>
+          <p class="text-sm text-neutral-600 dark:text-neutral-300">Gratuité des transports Tisséo pour les jeunes ? RER métropolitain ? Les candidats ont des visions différentes de la mobilité.</p>
         </div>
-        <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5">
+        <div class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-700 p-5">
           <div class="w-3 h-3 rounded-full mb-3" style="background-color: #9333EA"></div>
-          <h3 class="font-semibold text-neutral-800 mb-1">Logement & loyers</h3>
-          <p class="text-sm text-neutral-600">Encadrement des loyers, Airbnb, logements sociaux : le logement est au centre de la campagne.</p>
+          <h3 class="font-semibold text-neutral-800 dark:text-neutral-100 mb-1">Logement & loyers</h3>
+          <p class="text-sm text-neutral-600 dark:text-neutral-300">Encadrement des loyers, Airbnb, logements sociaux : le logement est au centre de la campagne.</p>
         </div>
-        <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5">
+        <div class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-700 p-5">
           <div class="w-3 h-3 rounded-full mb-3" style="background-color: #DC2626"></div>
-          <h3 class="font-semibold text-neutral-800 mb-1">Sécurité & vidéosurveillance</h3>
-          <p class="text-sm text-neutral-600">1 caméra par rue (Moudenc) ou police de proximité (Piquemal, Briançon) ? Deux approches de la sécurité.</p>
+          <h3 class="font-semibold text-neutral-800 dark:text-neutral-100 mb-1">Sécurité & vidéosurveillance</h3>
+          <p class="text-sm text-neutral-600 dark:text-neutral-300">1 caméra par rue (Moudenc) ou police de proximité (Piquemal, Briançon) ? Deux approches de la sécurité.</p>
         </div>
-        <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5">
+        <div class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-700 p-5">
           <div class="w-3 h-3 rounded-full mb-3" style="background-color: #16A34A"></div>
-          <h3 class="font-semibold text-neutral-800 mb-1">Écologie & canicules</h3>
-          <p class="text-sm text-neutral-600">Végétalisation massive, rénovation thermique, 100 000 voitures en moins : comment adapter Toulouse au réchauffement ?</p>
+          <h3 class="font-semibold text-neutral-800 dark:text-neutral-100 mb-1">Écologie & canicules</h3>
+          <p class="text-sm text-neutral-600 dark:text-neutral-300">Végétalisation massive, rénovation thermique, 100 000 voitures en moins : comment adapter Toulouse au réchauffement ?</p>
         </div>
-        <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5">
+        <div class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-700 p-5">
           <div class="w-3 h-3 rounded-full mb-3" style="background-color: #CA8A04"></div>
-          <h3 class="font-semibold text-neutral-800 mb-1">Fiscalité & impôts</h3>
-          <p class="text-sm text-neutral-600">Geler la taxe foncière ? La baisser ? Taxer les logements vacants ? Les approches varient selon les candidats.</p>
+          <h3 class="font-semibold text-neutral-800 dark:text-neutral-100 mb-1">Fiscalité & impôts</h3>
+          <p class="text-sm text-neutral-600 dark:text-neutral-300">Geler la taxe foncière ? La baisser ? Taxer les logements vacants ? Les approches varient selon les candidats.</p>
         </div>
-        <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5">
+        <div class="bg-white dark:bg-neutral-800 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-700 p-5">
           <div class="w-3 h-3 rounded-full mb-3" style="background-color: #059669"></div>
-          <h3 class="font-semibold text-neutral-800 mb-1">Démocratie locale</h3>
-          <p class="text-sm text-neutral-600">RIC local, budget participatif, coopératives de quartier : quel pouvoir pour les citoyens ?</p>
+          <h3 class="font-semibold text-neutral-800 dark:text-neutral-100 mb-1">Démocratie locale</h3>
+          <p class="text-sm text-neutral-600 dark:text-neutral-300">RIC local, budget participatif, coopératives de quartier : quel pouvoir pour les citoyens ?</p>
         </div>
       </div>
     </section>
 
     <!-- Candidats -->
     <section class="pb-12">
-      <h2 class="text-2xl font-bold text-neutral-800 mb-6">Les 7 candidats</h2>
+      <h2 class="text-2xl font-bold text-neutral-800 dark:text-neutral-100 mb-6">Les 7 candidats</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         <CandidatCard
           v-for="candidat in candidats"
@@ -127,35 +143,35 @@ const candidats = computed(() => shuffle(
           :candidat="candidat"
         />
       </div>
-      <p class="text-xs text-neutral-400 mt-4 text-center">
+      <p class="text-xs text-neutral-400 dark:text-neutral-500 mt-4 text-center">
         L'ordre d'affichage des candidats est aléatoire et change à chaque chargement.
       </p>
     </section>
 
     <!-- Comment ça marche -->
     <section class="pb-12">
-      <h2 class="text-xl font-bold text-neutral-800 mb-4">Comment ça marche ?</h2>
+      <h2 class="text-xl font-bold text-neutral-800 dark:text-neutral-100 mb-4">Comment ça marche ?</h2>
       <div class="grid sm:grid-cols-3 gap-6">
         <div class="text-center">
           <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-3">
             <span class="text-xl font-bold text-primary">1</span>
           </div>
-          <h3 class="font-semibold text-neutral-800 mb-1">Répondez au quiz</h3>
-          <p class="text-sm text-neutral-600">20 questions sur les grands enjeux toulousains. Donnez votre avis et indiquez l'importance du sujet pour vous.</p>
+          <h3 class="font-semibold text-neutral-800 dark:text-neutral-100 mb-1">Répondez au quiz</h3>
+          <p class="text-sm text-neutral-600 dark:text-neutral-300">20 questions sur les grands enjeux toulousains. Donnez votre avis et indiquez l'importance du sujet pour vous.</p>
         </div>
         <div class="text-center">
           <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-3">
             <span class="text-xl font-bold text-primary">2</span>
           </div>
-          <h3 class="font-semibold text-neutral-800 mb-1">Découvrez vos résultats</h3>
-          <p class="text-sm text-neutral-600">Votre compatibilité avec chaque candidat est calculée à partir de leurs positions officielles sourcées.</p>
+          <h3 class="font-semibold text-neutral-800 dark:text-neutral-100 mb-1">Découvrez vos résultats</h3>
+          <p class="text-sm text-neutral-600 dark:text-neutral-300">Votre compatibilité avec chaque candidat est calculée à partir de leurs positions officielles sourcées.</p>
         </div>
         <div class="text-center">
           <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-3">
             <span class="text-xl font-bold text-primary">3</span>
           </div>
-          <h3 class="font-semibold text-neutral-800 mb-1">Comparez en détail</h3>
-          <p class="text-sm text-neutral-600">Consultez les programmes complets et comparez les candidats thématique par thématique.</p>
+          <h3 class="font-semibold text-neutral-800 dark:text-neutral-100 mb-1">Comparez en détail</h3>
+          <p class="text-sm text-neutral-600 dark:text-neutral-300">Consultez les programmes complets et comparez les candidats thématique par thématique.</p>
         </div>
       </div>
     </section>
