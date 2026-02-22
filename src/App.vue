@@ -16,7 +16,7 @@ function closeMobile() {
     <header class="bg-white dark:bg-neutral-800 border-b border-neutral-200 dark:border-neutral-700 sticky top-0 z-50">
       <nav class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
         <RouterLink to="/" class="flex items-center gap-2 font-bold text-primary text-lg" @click="closeMobile">
-          MaVilleToulouse2026
+          Ma Ville Toulouse 2026
         </RouterLink>
 
         <!-- Desktop nav -->
@@ -110,7 +110,7 @@ function closeMobile() {
     <footer class="bg-white dark:bg-neutral-800 border-t border-neutral-200 dark:border-neutral-700 mt-auto transition-colors">
       <div class="max-w-6xl mx-auto px-4 sm:px-6 py-6">
         <div class="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-neutral-500 dark:text-neutral-400">
-          <p>MaVilleToulouse2026 — Projet citoyen indépendant</p>
+          <p>Ma Ville Toulouse 2026 — Projet citoyen indépendant</p>
           <div class="flex gap-6">
             <RouterLink to="/faq" class="hover:text-primary transition-colors">
               FAQ

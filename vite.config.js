@@ -10,8 +10,8 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'MaVilleToulouse2026 — Toulouse',
-        short_name: 'MaVilleToulouse2026',
+        name: 'Ma Ville Toulouse 2026',
+        short_name: 'Ma Ville Toulouse 2026',
         description: 'Quiz et comparateur des candidats aux municipales 2026 à Toulouse',
         theme_color: '#A4343A',
         background_color: '#f8fafc',

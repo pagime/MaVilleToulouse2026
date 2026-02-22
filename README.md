@@ -1,4 +1,4 @@
-# MaVilleToulouse2026 — Toulouse
+# Ma Ville Toulouse 2026
 
 Application web citoyenne pour les élections municipales 2026 à Toulouse. Permet aux citoyens de s'informer sur les candidats, comparer leurs programmes et découvrir via un quiz interactif avec quel programme ils sont le plus compatibles.
 

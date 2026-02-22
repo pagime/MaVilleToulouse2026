@@ -37,7 +37,18 @@
       "WebFetch(domain:www.toulouse-nouvel-air.fr)",
       "WebFetch(domain:www.revolutionpermanente.fr)",
       "Bash(cd /c/Users/Pablo/Documents/Developpement/NSFW/MaVille2026 && CLOUDFLARE_API_TOKEN=\"NnXq1N1RypDbqqat4OLoFvQmSqerzmW40VJlKTyI\" npx wrangler pages deploy dist --project-name=maville2026 --branch=master --commit-dirty=true --commit-message=\"Enrich candidates, replace emojis with colors, fix URLs\" 2>&1)",
-      "Bash(cd /c/Users/Pablo/Documents/Developpement/NSFW/MaVille2026 && git add -A && git commit -m \"$\\(cat <<'EOF'\nEnrich candidate data, replace emojis with colors, fix source URLs\n\n- Detailed bios with real facts from press research for all 7 candidates\n- More proposals per candidate with real source URLs \\(lejournaltoulousain, francebleu, etc.\\)\n- Replace emoji icons in thematiques with colored dots\n- Fix quiz source URLs to point to real program pages\n- Adjust quiz positions based on research \\(Pezzin transport, Moudenc ecology, Briancon security\\)\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\" && git push 2>&1)"
+      "Bash(cd /c/Users/Pablo/Documents/Developpement/NSFW/MaVille2026 && git add -A && git commit -m \"$\\(cat <<'EOF'\nEnrich candidate data, replace emojis with colors, fix source URLs\n\n- Detailed bios with real facts from press research for all 7 candidates\n- More proposals per candidate with real source URLs \\(lejournaltoulousain, francebleu, etc.\\)\n- Replace emoji icons in thematiques with colored dots\n- Fix quiz source URLs to point to real program pages\n- Adjust quiz positions based on research \\(Pezzin transport, Moudenc ecology, Briancon security\\)\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\" && git push 2>&1)",
+      "Bash(cd:*)",
+      "Bash(cd /c/Users/Pablo/Documents/Developpement/NSFW/MaVille2026 && gh auth status 2>&1)",
+      "Bash(gh auth:*)",
+      "Bash(cd /c/Users/Pablo/Documents/Developpement/NSFW/MaVille2026 && git push -u origin master 2>&1)",
+      "Bash(gh repo:*)",
+      "Bash(cd /c/Users/Pablo/Documents/Developpement/NSFW/MaVille2026 && CLOUDFLARE_API_TOKEN=\"NnXq1N1RypDbqqat4OLoFvQmSqerzmW40VJlKTyI\" npx wrangler pages project create mavilletoulouse2026 --production-branch=master 2>&1)",
+      "Bash(cd /c/Users/Pablo/Documents/Developpement/NSFW/MaVille2026 && CLOUDFLARE_API_TOKEN=\"NnXq1N1RypDbqqat4OLoFvQmSqerzmW40VJlKTyI\" npx wrangler pages deploy dist --project-name=mavilletoulouse2026 --branch=master --commit-dirty=true --commit-message=\"Initial deploy MaVilleToulouse2026\" 2>&1)",
+      "Bash(cd /c/Users/Pablo/Documents/Developpement/NSFW/MaVille2026 && npm install vite-plugin-pwa 2>&1)",
+      "Bash(cd /c/Users/Pablo/Documents/Developpement/NSFW/MaVille2026 && CLOUDFLARE_API_TOKEN=\"NnXq1N1RypDbqqat4OLoFvQmSqerzmW40VJlKTyI\" npx wrangler pages deploy dist --project-name=mavilletoulouse2026 --branch=master --commit-dirty=true --commit-message=\"Add dark mode, FAQ, PWA, OG tags, source badges\" 2>&1)",
+      "Bash(cd /c/Users/Pablo/Documents/Developpement/NSFW/MaVille2026 && git commit -m \"$\\(cat <<'EOF'\nPort Marseille improvements: dark mode, FAQ, PWA, OG tags, source badges\n\n- Add dark mode with localStorage persistence and system preference detection\n- Add FAQ page with 8 questions/answers\n- Add PWA support \\(vite-plugin-pwa, service worker, manifest\\)\n- Add Open Graph and Twitter Card meta tags for social sharing\n- Add source status badges on candidate cards and profile pages\n- Add provisional programs warning banner\n- Add slide transitions for quiz navigation\n- Add mobile hamburger menu with animated transitions\n- Add thematique filter in comparator\n- Add theme agreement/disagreement summary in results\n- Apply dark mode classes across all pages and components\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\" && git push 2>&1)",
+      "Bash(echo:*)"
     ]
   }
 }

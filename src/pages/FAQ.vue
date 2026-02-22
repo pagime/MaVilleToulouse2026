@@ -21,7 +21,7 @@ const faqs = [
   {
     id: 'neutralite',
     question: 'Le site est-il neutre politiquement ?',
-    answer: "Oui. MaVilleToulouse2026 est un projet citoyen indépendant, non affilié à aucun parti politique, candidat ou institution. L'ordre d'affichage des candidats est aléatoire à chaque chargement. L'algorithme est le même pour tous les candidats et son code est transparent."
+    answer: "Oui. Ma Ville Toulouse 2026 est un projet citoyen indépendant, non affilié à aucun parti politique, candidat ou institution. L'ordre d'affichage des candidats est aléatoire à chaque chargement. L'algorithme est le même pour tous les candidats et son code est transparent."
   },
   {
     id: 'donnees',
@@ -57,7 +57,7 @@ const faqs = [
       Questions fréquentes
     </h1>
     <p class="text-neutral-600 dark:text-neutral-300 mb-8">
-      Tout ce que vous devez savoir sur MaVilleToulouse2026 et le quiz de compatibilité.
+      Tout ce que vous devez savoir sur Ma Ville Toulouse 2026 et le quiz de compatibilité.
     </p>
 
     <div class="space-y-3">

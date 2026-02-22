@@ -20,7 +20,7 @@
       <h2 class="text-xl font-semibold text-neutral-800 mb-3 dark:text-neutral-100">Déclaration de non-affiliation</h2>
       <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5 text-sm text-neutral-700 dark:bg-neutral-800 dark:text-neutral-200 dark:border-neutral-700">
         <p>
-          MaVilleToulouse2026 est un projet citoyen indépendant. Il n'est affilié à aucun parti politique,
+          Ma Ville Toulouse 2026 est un projet citoyen indépendant. Il n'est affilié à aucun parti politique,
           aucun candidat, aucune institution publique ni aucune organisation militante.
           L'objectif est de fournir une information factuelle et neutre pour aider les citoyens
           dans leur réflexion.
@@ -95,7 +95,7 @@
     <section class="mb-8">
       <h2 class="text-xl font-semibold text-neutral-800 mb-3 dark:text-neutral-100">Protection des données (RGPD)</h2>
       <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-5 text-sm text-neutral-700 space-y-2 dark:border-neutral-700 dark:text-neutral-200 dark:bg-neutral-800">
-        <p>MaVilleToulouse2026 respecte votre vie privée :</p>
+        <p>Ma Ville Toulouse 2026 respecte votre vie privée :</p>
         <ul class="list-disc list-inside space-y-1">
           <li>Aucune donnée personnelle n'est collectée ni stockée</li>
           <li>Aucun cookie de tracking n'est utilisé</li>
