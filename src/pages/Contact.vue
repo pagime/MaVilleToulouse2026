@@ -1,4 +1,13 @@
 <script setup>
+import { computed } from 'vue'
+
+// Obfuscation simple pour éviter le scraping par les bots
+const user = 'pablomzpv'
+const domain = 'gmail.com'
+const email = computed(() => `${user}@${domain}`)
+function mailto(subject) {
+  return `mailto:${email.value}?subject=${encodeURIComponent(subject)}`
+}
 </script>
 
 <template>
@@ -24,7 +33,7 @@
         <strong>Engagement :</strong> Toute demande de correction sera traitée sous 48h.
       </p>
       <a
-        href="mailto:contact@mavilletoulouse2026.example.fr?subject=Droit%20de%20réponse%20-%20Ma%20Ville%20Toulouse%202026"
+        :href="mailto('Droit de réponse - Ma Ville Toulouse 2026')"
         class="inline-flex items-center px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary-light transition-colors"
       >
         Nous écrire par email
@@ -38,7 +47,7 @@
         N'hésitez pas à nous contacter.
       </p>
       <a
-        href="mailto:contact@mavilletoulouse2026.example.fr?subject=Question%20-%20Ma%20Ville%20Toulouse%202026"
+        :href="mailto('Question - Ma Ville Toulouse 2026')"
         class="inline-flex items-center px-6 py-3 border-2 border-primary text-primary font-semibold rounded-lg hover:bg-primary/5 transition-colors"
       >
         Nous contacter
