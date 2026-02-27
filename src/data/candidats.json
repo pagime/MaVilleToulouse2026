@@ -10,70 +10,78 @@
     "bio": "Né le 19 juillet 1960 à Toulouse, Jean-Luc Moudenc est avocat de formation (DESS en droit du travail, Toulouse 1 Capitole). Issu d'un milieu modeste (mère infirmière, père cheminot SNCF), il débute comme journaliste à La Croix du Midi avant de s'engager en politique sous le mentorat de Dominique Baudis. Conseiller municipal dès 1987, il devient maire de Toulouse une première fois en 2004, est battu en 2008 par Pierre Cohen (PS), puis reconquiert la mairie en 2014. Réélu en 2020, il brigue un troisième mandat consécutif. Il a également été député de Haute-Garonne (2012-2014) et président de Toulouse Métropole depuis 2014. Son bilan revendique la construction de la 3e ligne de métro, le téléphérique Téléo, la plantation de 108 856 arbres et le passage de 21 à 710 caméras de vidéoprotection.",
     "profession": "Avocat",
     "site_web": "https://moudenc2026.fr",
+    "source_status": "officiel",
     "mandats_precedents": ["Maire de Toulouse 2004-2008", "Député de Haute-Garonne 2012-2014", "Maire de Toulouse 2014-2020", "Maire de Toulouse 2020-2026", "Président de Toulouse Métropole 2014-2026"],
+    "points_cles": [
+      "1 caméra par rue (1 380 caméras supplémentaires) et 500 policiers municipaux",
+      "Doubler la ligne B du métro et prolonger Téléo vers Malepère",
+      "Zéro hausse d'impôts locaux pendant tout le mandat",
+      "Mutuelle communale élargie à tous les Toulousains",
+      "Cité de la musique à Montaudran et Stadium agrandi à 43 000 places"
+    ],
     "propositions": [
       {
         "thematique": "transport",
-        "titre": "Ligne C du métro et prolongements",
-        "description": "Achever la 3e ligne de métro Toulouse Aerospace Express (27 km, 200 000 voyageurs/jour attendus, 90 000 véhicules retirés). Doubler la ligne B et prolonger le téléphérique Téléo vers Malepère pour desservir 15 000 nouveaux habitants. Budget vélo doublé à 160 M€ avec un Réseau Express Vélo (REV).",
-        "source_url": "https://moudenc2026.fr/programmes/",
+        "titre": "Ligne C du métro et doublement de la ligne B",
+        "description": "Achever la 3e ligne de métro Toulouse Aerospace Express (27 km, 200 000 voyageurs/jour attendus, 90 000 véhicules retirés). Doubler la ligne B du métro (extension vers Parc Technologique du Canal et INPT, stations élevées). Prolonger le téléphérique Téléo vers Malepère pour desservir 15 000 nouveaux habitants. Budget vélo doublé à 160 M€ avec un Réseau Express Vélo (REV).",
+        "source_url": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/doubler-ligne-b-prolonger-teleo-moudenc-promet-transports-toulouse-360478/",
         "cout_estime": "4 Md€ (métro C)"
       },
       {
         "thematique": "transport",
         "titre": "Soutien à la LGV Bordeaux-Toulouse",
-        "description": "Défense du projet de ligne à grande vitesse Bordeaux-Toulouse avec 4,1 milliards d'euros de financement des collectivités locales. +30% d'espace piéton, part modale voiture limitée à 30%. Utilisation de l'IA pour organiser les chantiers de voirie.",
+        "description": "Défense du projet de ligne à grande vitesse Bordeaux-Toulouse avec 4,1 milliards d'euros de financement des collectivités locales. Objectif : Toulouse à 3h de Paris et 1h de Bordeaux, livraison prévue 2032. +30% d'espace piéton, part modale voiture limitée à 30%.",
         "source_url": "https://moudenc2026.fr/programmes/",
         "cout_estime": "4,1 Md€ (part collectivités)"
       },
       {
         "thematique": "securite",
         "titre": "500 policiers municipaux et 1 caméra par rue",
-        "description": "Objectif 500 policiers municipaux (contre 165 en 2016 et 390 en 2024). Couvrir les 3 801 rues de Toulouse avec 1 400 caméras supplémentaires, couplées à l'IA (sans reconnaissance faciale). Création de brigades anti-narcotrafic et anti-violences sexistes. Boîtier d'alerte pour les commerçants.",
+        "description": "Objectif 500 policiers municipaux (contre 165 en 2016 et 390 en 2024). Couvrir les 3 801 rues de Toulouse avec 1 380 caméras supplémentaires (passage de ~650 à 2 000+), couplées à l'IA (sans reconnaissance faciale, budget ~35 M€). Création de brigades anti-narcotrafic et anti-violences sexistes et sexuelles. Brigade de sécurité dans les transports en commun (agents Tisséo armés). Boîtier d'alerte pour les commerçants.",
         "source_url": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/une-camera-une-rue-ia-nouvelle-brigade-plan-moudenc-pour-securite-toulouse-359479/",
-        "cout_estime": "40 M€ (caméras)"
+        "cout_estime": "35 M€ (caméras)"
       },
       {
         "thematique": "ecologie",
-        "titre": "Plan 100 000 arbres et Toulouse + fraîche 2050",
-        "description": "108 856 arbres déjà plantés (objectif dépassé). Plan « Toulouse + fraîche 2050 » contre les îlots de chaleur. Cours Oasis dans les écoles. Panneaux solaires obligatoires sur tous les nouveaux bâtiments publics. Ouverture du grand parc de l'île du Ramier en « univers forestier ».",
-        "source_url": "https://moudenc2026.fr/programmes/",
+        "titre": "Grand Parc Garonne et 100 000 arbres",
+        "description": "108 856 arbres déjà plantés (objectif dépassé). Grand Parc Garonne : 32 km de berges aménagées, ouverture du parc de l'île du Ramier et du parc des berges de la Touch en 2026. 100% de cours Oasis dans les écoles d'ici fin 2026. Règle 3-30-300 appliquée. Plan « Toulouse + fraîche 2050 » contre les îlots de chaleur.",
+        "source_url": "https://www.mediacites.fr/municipales-2026/toulouse/2026/02/09/environnement-le-bien-mais-peut-mieux-faire-de-jean-luc-moudenc/",
         "cout_estime": null
       },
       {
         "thematique": "urbanisme",
-        "titre": "PLUi-H : 35% social, 25% abordable",
-        "description": "35% de logements sociaux et 25% de logements abordables dans les nouvelles opérations via le PLUi-H. Projet Grand Matabiau Quais d'Oc (3 000 logements neufs). Opposition à l'encadrement des loyers : « la solution, c'est de construire des logements ».",
-        "source_url": "https://www.toulouseimmo9.com/actualites/politique/municipales-2026-logement",
+        "titre": "7 400 logements/an, 35% social, refus de l'encadrement des loyers",
+        "description": "Objectif 7 400 logements/an sur 10 ans (74 000 logements au total) via le PLUi-H. 35% de logements sociaux et 25% de logements à prix maîtrisé (3 000 à 3 500 €/m²) dans la production neuve. Refus catégorique de l'encadrement des loyers : « La meilleure réponse à l'explosion des loyers, c'est la production ». 32 M€ débloqués pour relancer les logements sociaux.",
+        "source_url": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/logement-plan-moudenc-pour-empecher-explosion-prix-toulouse-364977/",
         "cout_estime": null
       },
       {
         "thematique": "fiscalite",
-        "titre": "Aucune hausse d'impôts pendant le mandat",
-        "description": "Engagement de ne pas augmenter la taxe foncière ni la cotisation foncière des entreprises. Gel en place depuis 2016 (après une hausse de 15% en 2015). Économie revendiquée : 491€/an pour un couple de locataires sans enfants par rapport à 2014.",
+        "titre": "Aucune hausse d'impôts et assurance habitation municipale",
+        "description": "Engagement de ne pas augmenter la taxe foncière ni la CFE pendant tout le mandat. Gel en place depuis 2016. Tarifs cantines et CLAE inchangés depuis 2015 (11 ans de stabilité). 1 500 enfants précaires totalement exonérés. Lancement d'une assurance habitation municipale à tarif social. Économie revendiquée : 491 €/an pour un couple de locataires sans enfants par rapport à 2014.",
         "source_url": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/impots-mutuelle-jean-luc-moudenc-promet-pouvoir-achat-toulouse-356450/",
         "cout_estime": null
       },
       {
         "thematique": "social",
-        "titre": "Mutuelle communale élargie à tous",
-        "description": "Extension de la mutuelle communale à l'ensemble des Toulousains pour un accès universel à une complémentaire santé à tarif négocié. Développement de la télémédecine. Création d'une foncière pour faciliter l'installation de Maisons de santé pluriprofessionnelles.",
+        "titre": "Mutuelle communale pour tous et centres de santé",
+        "description": "Extension de la mutuelle communale à l'ensemble des Toulousains (actuellement réservée aux seniors, 5 500 adhérents). Un centre de santé pluridisciplinaire dans chacun des 20 quartiers d'ici la fin du mandat. Développement de la télémédecine. Lancement d'une mutuelle habitation municipale.",
         "source_url": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/mutuelle-pour-tous-telemedecine-propositions-moudenc-sante-toulouse-362120/",
         "cout_estime": "5 M€/an"
       },
       {
-        "thematique": "numerique",
-        "titre": "Toulouse Smart City",
-        "description": "Plateforme open data municipale, capteurs IoT pour la gestion des déchets et de l'éclairage, vidéoprotection augmentée par intelligence artificielle. Dématérialisation des démarches avec maintien de guichets physiques.",
-        "source_url": "https://moudenc2026.fr/programmes/",
-        "cout_estime": "25 M€"
+        "thematique": "education",
+        "titre": "100% cours Oasis, places en crèche et 3e Cité éducative",
+        "description": "100% de cours Oasis (cours d'école végétalisées et désimperméabilisées) d'ici fin 2026. Nouvelles places en crèche avec priorité aux parents qui travaillent. Préparation d'une 3e Cité éducative pour Empalot. Investissement 2,5x supérieur en éducation par rapport aux mandats précédents, plus d'un demi-milliard investi sur deux mandats.",
+        "source_url": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/100-cours-oasis-plus-places-creche-promesses-moudenc-familles-364914/",
+        "cout_estime": null
       },
       {
         "thematique": "culture",
-        "titre": "Cité de la danse et grands équipements",
-        "description": "Construction d'une Cité de la danse à la Reynerie (ouverture prévue 2028). Agrandissement du Stadium de 33 000 à 43 000 places (60 M€).",
-        "source_url": "https://www.francebleu.fr/infos/politique/l-agrandissement-du-stadium-de-toulouse-couterait-60-millions-d-euros-2808911",
-        "cout_estime": "60 M€ (Stadium)"
+        "titre": "Cité de la musique et Stadium agrandi",
+        "description": "Construction d'une Cité de la musique / Quartier de la Culture à Montaudran : nouvel auditorium d'au moins 2 500 places (budget 60-70 M€). Agrandissement du Stadium de 33 000 à 43 000 places (60 M€). Extension du Musée des Augustins et agrandissement du Musée Saint-Raymond. Budget culture : 150 M€/an, 2e poste budgétaire.",
+        "source_url": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/municipales-moudenc-quartier-de-la-culture-358598/",
+        "cout_estime": "130 M€ (musique + stadium)"
       },
       {
         "thematique": "democratie",
@@ -81,6 +89,13 @@
         "description": "Renforcement des conseils citoyens de quartier avec un budget dédié. Maintien du budget participatif existant (3,5 M€/an).",
         "source_url": "https://moudenc2026.fr/programmes/",
         "cout_estime": "3,5 M€/an"
+      },
+      {
+        "thematique": "numerique",
+        "titre": "Toulouse Smart City et IA responsable",
+        "description": "Plateforme open data municipale, capteurs IoT pour la gestion des déchets et de l'éclairage, vidéoprotection augmentée par intelligence artificielle. IA utilisée pour organiser les chantiers de voirie et la supervision sécuritaire. Dématérialisation des démarches avec maintien de guichets physiques.",
+        "source_url": "https://moudenc2026.fr/programmes/",
+        "cout_estime": "25 M€"
       }
     ]
   },
@@ -90,66 +105,74 @@
     "nom": "Briançon",
     "prenom": "François",
     "photo": "/images/candidats/briancon-francois.jpg",
-    "parti": "Gauche unie — Vivre Mieux (PS / EELV / PCF / Archipel Citoyen / Place Publique / PRG / Générations / MRC)",
+    "parti": "Gauche unie — Vivre Mieux (PS / EELV / PCF / Place Publique / PRG / Générations / MRC)",
     "slogan": "Vivre mieux à Toulouse",
     "bio": "Âgé de 60 ans, François Briançon est issu d'une famille ancrée dans la vie publique toulousaine : son père a dirigé la Chambre d'agriculture et a été premier secrétaire du PS en Haute-Garonne. Après Sciences Po Paris, il rédige des discours pour des députés PS à l'Assemblée nationale, puis crée plusieurs entreprises de communication dans les années 1990. Il est aujourd'hui directeur de la communication chez Haute-Garonne Numérique. Membre du PS depuis l'âge de 15 ans, il siège au conseil municipal de Toulouse depuis 1995, a été adjoint au sport de Pierre Cohen (2008-2014), et est premier secrétaire fédéral du PS de Haute-Garonne depuis 2021. Il conduit la liste « Vivre Mieux » rassemblant 10 formations de gauche (hors LFI), avec 70 colistiers et un accord de gouvernance avec Régis Godec (EELV) pour la présidence de la Métropole.",
     "profession": "Directeur de communication (Haute-Garonne Numérique)",
     "site_web": "https://vivremieuxtoulouse.fr",
+    "source_status": "officiel",
     "mandats_precedents": ["Conseiller municipal de Toulouse depuis 1995", "Adjoint au sport (2008-2014)", "Élu métropolitain"],
+    "points_cles": [
+      "Gratuité des transports pour mineurs et étudiants boursiers, abonnement 10 €/mois pour les moins de 26 ans",
+      "L'Étoile Verte : transformer les boulevards en promenades urbaines végétalisées",
+      "Encadrement des loyers et 15 000 logements à loyers modérés",
+      "6 centres de santé municipaux avec médecins salariés",
+      "Droit d'initiative citoyenne et fin des simulacres de concertation"
+    ],
     "propositions": [
       {
         "thematique": "transport",
-        "titre": "Gratuité des transports pour mineurs et étudiants boursiers",
-        "description": "Transports Tisséo gratuits pour les mineurs, étudiants boursiers et personnes en service civique. Abonnement à 10€/mois pour les moins de 26 ans. Création d'une police des transports. Déploiement progressif d'un RER métropolitain de 2028 à 2040.",
+        "titre": "Gratuité des transports et RER métropolitain",
+        "description": "Transports Tisséo gratuits pour les mineurs, étudiants boursiers et personnes en service civique. Abonnement à 10 €/mois pour les moins de 26 ans. Tarification progressive selon les revenus d'ici 2027. +20% de l'offre de transports collectifs en 3 ans. Déploiement progressif d'un RER métropolitain de 2028 à 2040 (évalué à 4,8 Md€). Stationnement à tarification sociale et écologique.",
         "source_url": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/logement-transports-prepare-gauche-unie-vivre-mieux-toulouse-355876/",
-        "cout_estime": "40 M€/an"
+        "cout_estime": "4,8 Md€ (RER)"
       },
       {
         "thematique": "ecologie",
         "titre": "L'Étoile Verte et règle 3-30-300",
-        "description": "Projet urbain « L'Étoile Verte » : transformation des boulevards et pénétrantes en axes verts à l'horizon 2050 (moins de voitures, plus d'arbres, de fraîcheur et de commerces de proximité). Création du Parc des Trois Canaux reliant canal du Midi, de Brienne et latéral. Règle 3-30-300 : 3 arbres visibles de chaque fenêtre, 30% de canopée, un espace vert à moins de 300m. Débitumisation de 300 000 m² de surfaces. Cours Oasis dans chaque école.",
+        "description": "Projet urbain « L'Étoile Verte » : transformation des boulevards et pénétrantes en promenades urbaines avec pistes cyclables continues, arbres et espaces piétons. Parc de l'est (100 hectares) et ceinture verte métropolitaine. Règle 3-30-300 : 3 arbres visibles de chaque fenêtre, 30% de canopée par quartier, un espace vert à moins de 300 m. Débitumisation de 300 000 m² de surfaces. Gestion publique de l'eau. Bouclier Santé-Environnement pour les crèches et écoles. Neutralité carbone visée à 2050.",
         "source_url": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/boulevards-canaux-comment-vivre-mieux-veut-refaconner-toulouse-avec-etoile-verte-359733/",
         "cout_estime": "80 M€"
       },
       {
         "thematique": "securite",
         "titre": "Police de proximité : 1 agent pour 1 000 habitants",
-        "description": "Police municipale de proximité avec l'objectif d'un agent pour 1 000 habitants. Présence dans tous les quartiers. Briançon rappelle avoir voté toutes les mesures sécuritaires en tant qu'élu : armement de la police municipale, vidéosurveillance.",
+        "description": "Police municipale de proximité avec l'objectif d'un agent pour 1 000 habitants. Service de médiation urbaine dédié. Plan « Stop au deal ». Prévention des violences basées sur le genre. Maintien de la police des transports. Critique du bilan sécuritaire basé uniquement sur la vidéosurveillance : volonté d'une police plus en contact avec la population.",
         "source_url": "https://vivremieuxtoulouse.fr/programme/",
         "cout_estime": "15 M€/an"
       },
       {
         "thematique": "urbanisme",
-        "titre": "15 000 logements à loyers modérés et encadrement des loyers",
-        "description": "15 000 logements à loyers modérés sur le mandat (+50% par rapport à la trajectoire actuelle). 30 000 logements réhabilités. 7 500 logements en Bail Réel Solidaire. Candidature à l'encadrement des loyers avant fin 2026. Limitation Airbnb de 120 à 90 jours/an.",
+        "titre": "Encadrement des loyers et 15 000 logements modérés",
+        "description": "15 000 logements à loyers modérés sur le mandat (+50% par rapport à la trajectoire actuelle). 30 000 logements réhabilités. 7 500 logements en Bail Réel Solidaire. Candidature à l'encadrement des loyers avant fin 2026. 500 logements transitoires pour personnes vulnérables. Limitation Airbnb de 120 à 90 jours/an. Objectif « zéro enfant à la rue ».",
         "source_url": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/logement-transports-prepare-gauche-unie-vivre-mieux-toulouse-355876/",
         "cout_estime": "300 M€"
       },
       {
         "thematique": "education",
-        "titre": "+1 000 places en crèche et gratuité des services scolaires",
-        "description": "1 000 places supplémentaires en crèche. 1 ATSEM par classe de maternelle. Gratuité totale des services municipaux (cantine, périscolaire, sport, culture) pour les foyers gagnant moins de 1 200€/mois — jusqu'à 900€/an d'économie. Goûter gratuit à l'école pour tous. Fournitures scolaires gratuites en CP. Bibliothèques gratuites.",
+        "titre": "+1 000 places en crèche et services scolaires gratuits",
+        "description": "1 000 places supplémentaires en crèche (priorité quartiers sous-dotés). 1 ATSEM par classe de maternelle toute la journée. Gratuité des services municipaux pour les foyers gagnant moins de 1 200 €/mois. Goûter gratuit à l'école pour tous. Fournitures scolaires gratuites en CP. 1 sortie culturelle par trimestre pour chaque enfant. Inclusion des enfants en situation de handicap.",
         "source_url": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/toulouse-gratuite-services-encadrement-loyers-gauche-devoile-plan-pouvoir-dachat-360516/",
         "cout_estime": "50 M€"
       },
       {
         "thematique": "culture",
-        "titre": "Culture accessible dans tous les quartiers",
-        "description": "Équipements culturels de proximité dans chaque quartier, tarifs réduits pour les jeunes et les publics précaires, soutien renforcé aux associations culturelles locales.",
+        "titre": "Villa Tolosa et culture dans tous les quartiers",
+        "description": "Création de la « Villa Tolosa », espace dédié à la création contemporaine. Retour des horaires étendus des bibliothèques. Pratique artistique accessible dans tous les quartiers. Soutien aux cultures urbaines et à la culture occitane. « Prix Toulouse Féministe » annuel.",
         "source_url": "https://vivremieuxtoulouse.fr/programme/",
         "cout_estime": "15 M€"
       },
       {
         "thematique": "fiscalite",
         "titre": "Limitation Airbnb à 90 jours et taxe logements vacants",
-        "description": "Réduction de la durée autorisée de location touristique de 120 à 90 jours/an avec contrôles renforcés. Taxe majorée sur les logements vacants.",
+        "description": "Réduction de la durée autorisée de location touristique de 120 à 90 jours/an avec contrôles renforcés. Taxe majorée sur les logements vacants. Code éthique et intégrité contre la corruption et les conflits d'intérêts.",
         "source_url": "https://vivremieuxtoulouse.fr/programme/",
         "cout_estime": null
       },
       {
         "thematique": "social",
-        "titre": "Plan Mieux Vieillir et santé mentale",
-        "description": "Plan « Mieux Vieillir » contre l'isolement dans chaque quartier. Santé mentale déclarée « cause municipale ». Création de centres de santé contre les déserts médicaux. Soutien aux PAEJ et espaces santé jeunes.",
+        "titre": "6 centres de santé municipaux et plan Bien Vieillir",
+        "description": "6 centres de santé municipaux avec médecins salariés pour lutter contre les déserts médicaux. Plan municipal de santé mentale. Plan « Bien Vieillir » contre l'isolement des seniors. Pass'Sport Toulouse pour financer les licences sportives. Ligue des Quartiers : mentorat par le sport. Ordonnances vertes : produits bio gratuits pour les femmes enceintes.",
         "source_url": "https://vivremieuxtoulouse.fr/programme/",
         "cout_estime": null
       },
@@ -162,9 +185,9 @@
       },
       {
         "thematique": "democratie",
-        "titre": "Droit d'initiative citoyenne",
-        "description": "Instauration d'un droit d'initiative citoyenne : la mairie sera obligée d'examiner toute proposition soutenue par les habitants. Augmentation significative du budget participatif.",
-        "source_url": "https://vivremieuxtoulouse.fr/programme/",
+        "titre": "Droit d'initiative citoyenne et fin des simulacres de concertation",
+        "description": "Droit d'initiative citoyenne : obligation d'examiner toute proposition soutenue par les habitants. Assemblée citoyenne sur l'urgence climatique. Assises de la démocratie vivante. « Fabrique Toulouse » en continu. Comités d'usagers des services publics. Académie citoyenne du débat public. Observatoire de la laïcité et des discriminations. Augmentation significative du budget participatif.",
+        "source_url": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/municipales-francois-briancon-promet-finir-avec-simulacres-concertation-365228/",
         "cout_estime": "2 M€/an"
       }
     ]
@@ -180,47 +203,55 @@
     "bio": "Né le 28 décembre 1984 à Besançon, François Piquemal est professeur de lettres-histoire-géographie au lycée professionnel du Mirail (lycée Gisèle-Halimi). Titulaire d'un master d'Histoire, il s'engage politiquement lors du mouvement anti-CPE en 2006 puis devient porte-parole du DAL 31 (Droit Au Logement) pendant 10 ans. Élu député LFI de la 4e circonscription de Haute-Garonne en 2022 (réélu au 1er tour en 2024 sous bannière NFP), il conduit la liste « Demain Toulouse » avec 70 colistiers âgés de 19 à 85 ans et une « parité sociale » revendiquée (24% classes populaires, 29% classes moyennes). Tous ont signé les chartes éthique et anticorruption Anticor. Soutenu par Mouss et Hakim (Zebda), il porte un programme de 485 propositions.",
     "profession": "Enseignant (professeur de lettres-histoire-géo)",
     "site_web": "https://piquemal2026.fr",
+    "source_status": "officiel",
     "mandats_precedents": ["Député de Haute-Garonne (4e circ.) 2022-2024", "Député de Haute-Garonne (4e circ.) 2024-2026 (réélu au 1er tour)"],
+    "points_cles": [
+      "Gratuité des transports Tisséo pour les moins de 26 ans d'ici 2030",
+      "Réduction de 55% des émissions de GES et régie publique de l'eau",
+      "100 policiers de proximité dans 20 antennes de quartier",
+      "Encadrement des loyers et réquisition de logements vacants",
+      "60 coopératives de quartier avec pouvoir décisionnaire"
+    ],
     "propositions": [
       {
         "thematique": "transport",
         "titre": "Gratuité Tisséo pour les moins de 26 ans et RER toulousain",
-        "description": "Gratuité des transports Tisséo pour les moins de 26 ans d'ici 2030, première baisse dès septembre 2026, objectif gratuité totale d'ici 2033. RER toulousain avec tarification intégrée Tisséo-TER, fréquence toutes les 15 min aux heures de pointe, de 5h à minuit. Réseau Express Vélo : 400 km de pistes cyclables continues, objectif 15% de part modale vélo en 2032 (contre 6% aujourd'hui). Convention citoyenne métropolitaine sur la mobilité.",
+        "description": "Gratuité des transports Tisséo pour les moins de 26 ans d'ici 2030, première baisse dès septembre 2026, objectif gratuité totale d'ici 2033. +50% de l'offre bus Lineo (fréquence, horaires nocturnes, quartiers périphériques). RER toulousain avec tarification intégrée Tisséo-TER. Réseau Express Vélo : 400 km de pistes cyclables continues, objectif 15% de part modale vélo en 2032. Convention citoyenne métropolitaine sur la mobilité.",
         "source_url": "https://www.lejournaltoulousain.fr/occitanie/sortir-toulouse-bouchons-vegetaliser-promet-programme-rupture-lfi-356062/",
         "cout_estime": "60 M€/an"
       },
       {
         "thematique": "ecologie",
-        "titre": "-55% d'émissions et désartificialisation de 50 hectares",
-        "description": "Réduction de 55% des émissions de GES d'ici 2030. 300 M€ sur 12 ans pour la rénovation énergétique. Désartificialisation et débitumage de 50 hectares. Retour de la gestion de l'eau en régie publique à la fin du contrat Veolia en 2030. Tarification sociale de l'eau : gratuité des 10 premiers m³ (besoins vitaux), soit 45€/an d'économie pour une famille.",
+        "titre": "-55% d'émissions et régie publique de l'eau",
+        "description": "Réduction de 55% des émissions de GES d'ici 2030. 300 M€ sur 12 ans pour la rénovation énergétique. Désartificialisation de 50 hectares. Retour de la gestion de l'eau en régie publique à la fin du contrat Veolia en 2030. Tarification sociale de l'eau : gratuité des 10 premiers m³. Moratoire sur les coupes d'arbres. Un parc fraîcheur par quartier. Grand parc à la Cepière (34 ha) avec piscine et végétation.",
         "source_url": "https://piquemal2026.fr/le-programme/",
         "cout_estime": "300 M€ (sur 12 ans)"
       },
       {
         "thematique": "securite",
         "titre": "100 policiers de proximité dans 20 antennes de quartier",
-        "description": "Recrutement de 100 policiers municipaux supplémentaires déployés dans 20 antennes de quartier (4 agents par quartier dans les 84 quartiers). Rétablissement de l'office municipal de médiation (supprimé sous le mandat actuel). Renonciation au marché des caméras (16 M€) pour financer 34 agents. « Je veux que les habitants connaissent le prénom de leurs policiers. »",
+        "description": "Recrutement de 100 policiers municipaux supplémentaires déployés dans 20 antennes de quartier (4 agents identifiés par quartier). Rétablissement de l'office municipal de médiation. Renonciation au marché des caméras (16 M€) pour financer 34 agents. Formation à la médiation et au dialogue. Refus de la surenchère sur les caméras de surveillance.",
         "source_url": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/police-proximite-office-mediation-programme-securite-francois-piquemal-342890/",
         "cout_estime": "48 M€ (sur le mandat)"
       },
       {
         "thematique": "urbanisme",
-        "titre": "Encadrement des loyers et gel des loyers HLM",
-        "description": "Encadrement des loyers dans le parc privé (économie estimée : 36€/mois pour une famille de 4, soit 436€/an). Gel pluriannuel des loyers de Toulouse Métropole Habitat. Limitation Airbnb à 90 jours. Réquisition de 100 logements vacants pour les sans-abri. Arrêt des démolitions sans concertation, priorité à la rénovation. Transformation du « quota du maire » en « quota du conseil municipal » transparent.",
+        "titre": "Encadrement des loyers et 24 000 logements sociaux",
+        "description": "Encadrement des loyers dans le parc privé (économie estimée : 36 €/mois pour une famille de 4). Objectif 24 000 logements sociaux sur la mandature (4 000/an). Gel pluriannuel des loyers de Toulouse Métropole Habitat. Limitation Airbnb à 90 jours. Réquisition de 100 logements vacants pour les sans-abri. Permis de louer généralisé. Rénovation énergétique : zéro passoires thermiques d'ici 2038.",
         "source_url": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/logement-toulouse-piquemal-360785/",
         "cout_estime": null
       },
       {
         "thematique": "education",
-        "titre": "Audit des écoles, fournitures et cantine gratuite progressive",
-        "description": "Grand audit de l'état des écoles (amiante, isolation), plan de rénovation d'urgence transparent et public. Gratuité des fournitures scolaires. Retour de la cantine gratuite pour les 10% de familles les plus modestes, puis extension progressive. Cantines comme lieux d'éducation alimentaire. Réinstallation des bureaux de vote dans les écoles.",
+        "titre": "Fournitures et cantine gratuite, audit des écoles",
+        "description": "Grand audit de l'état des écoles (amiante, isolation), plan de rénovation d'urgence. Gratuité des fournitures scolaires. Cantine gratuite pour les familles les plus modestes, extension progressive. 100% bio/agriculture paysanne en cantine. 1 ATSEM par classe de maternelle. 12 séances de natation obligatoires par an. Végétalisation de toutes les cours d'école.",
         "source_url": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/municipales-toulouse-piquemal-335000/",
         "cout_estime": "30 M€"
       },
       {
         "thematique": "culture",
-        "titre": "Gratuité des musées municipaux",
-        "description": "Rendre gratuits les musées municipaux pour tous. Augmentation du budget culturel et soutien aux pratiques culturelles dans les quartiers populaires.",
+        "titre": "Fin de l'austérité culturelle et musées gratuits",
+        "description": "Rendre gratuits les musées municipaux pour tous. Fin de l'austérité budgétaire sur la culture. Conventions pluriannuelles 3-5 ans (vs appels à projets ponctuels). Augmentation des subventions aux structures culturelles locales. Gratuité des musées pour les moins de 26 ans.",
         "source_url": "https://piquemal2026.fr/le-programme/",
         "cout_estime": "10 M€/an"
       },
@@ -233,8 +264,8 @@
       },
       {
         "thematique": "social",
-        "titre": "Territoire Zéro Chômeur et aide alimentaire",
-        "description": "Expérimentation du dispositif « Territoire Zéro Chômeur de Longue Durée » : recrutement en CDI de personnes sans emploi depuis plus d'un an. Gel des loyers HLM, renforcement de l'aide alimentaire municipale et cuisines solidaires de quartier. Objectif : faire de Toulouse la capitale française de l'économie sociale et solidaire.",
+        "titre": "Centres de santé municipaux et Territoire Zéro Chômeur",
+        "description": "Création de centres de santé municipaux avec médecins salariés (spécialistes et paramédicaux). Expérimentation « Territoire Zéro Chômeur de Longue Durée » : CDI pour chômeurs longue durée. Gel des loyers HLM, aide alimentaire municipale et cuisines solidaires de quartier. Lutte contre la précarité menstruelle. Objectif : Toulouse capitale française de l'ESS.",
         "source_url": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/municipales-francois-piquemal-economie-sociale-362961/",
         "cout_estime": "15 M€/an"
       },
@@ -248,7 +279,7 @@
       {
         "thematique": "democratie",
         "titre": "RIC local et 60 coopératives de quartier",
-        "description": "Référendum d'initiative citoyenne municipal via plateforme sécurisée. Création de 60 coopératives de quartier dotées de 500 000€ à 1 M€ chacune, avec pouvoir décisionnaire sur l'urbanisme et la mobilité locales.",
+        "description": "Référendum d'initiative citoyenne municipal via plateforme sécurisée. Création de 60 coopératives de quartier dotées de 500 000 € à 1 M€ chacune, avec pouvoir décisionnaire sur l'urbanisme et la mobilité locales. Renforcement des Conseils d'École. Transparence administrative renforcée.",
         "source_url": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/ric-cooperatives-quartier-francois-piquemal-veut-refonder-democratie-toulouse-360095/",
         "cout_estime": "30 à 60 M€/an"
       }
@@ -265,27 +296,49 @@
     "bio": "Né le 14 juillet 1987 à Lavelanet (Ariège), Julien Léonardelli a grandi entre l'Ariège, le Tarn-et-Garonne et les Pyrénées-Orientales. Ancien boulanger artisan dans le quartier Borderouge pendant près de 10 ans, il s'engage en politique dès 18 ans. Élu conseiller régional d'Occitanie en 2015 (réélu en 2021), il est aussi conseiller municipal à Fronton et président du RN en Haute-Garonne. Élu député européen en 2024 (commission transport et tourisme), il annonce sa candidature à la mairie de Toulouse le 14 décembre 2025. Objectif : dépasser la barre des 10% (le RN a fait 8,15% en 2014 et 4,31% en 2020 à Toulouse).",
     "profession": "Ancien boulanger artisan, député européen",
     "site_web": "https://lebonsenstoulousain.fr",
+    "source_status": "declarations",
     "mandats_precedents": ["Conseiller régional d'Occitanie 2015-2021", "Conseiller régional d'Occitanie 2021-2026", "Conseiller municipal de Fronton", "Député européen 2024-"],
+    "points_cles": [
+      "200 policiers municipaux supplémentaires, présence 24h/24",
+      "Réduction de 25% de la taxe foncière par enfant pour les familles",
+      "Bouclier énergétique municipal de 300 €/an pour les classes moyennes",
+      "Création d'arrondissements comme Paris, Lyon et Marseille",
+      "Uniforme scolaire et cantines 100% approvisionnement local"
+    ],
     "propositions": [
       {
         "thematique": "securite",
-        "titre": "Caméras, armement et tolérance zéro",
-        "description": "Multiplication des caméras de vidéosurveillance avec des agents dédiés à la supervision. Redonner force et moyens aux policiers municipaux. Présence policière aux abords des écoles. Politique de tolérance zéro contre la délinquance.",
+        "titre": "200 policiers supplémentaires et présence 24h/24",
+        "description": "Recruter 200 policiers municipaux supplémentaires sur le mandat. Présence de la police municipale 24h/24, 7j/7. Brigades fixes dans les secteurs stratégiques. Doubler le nombre de caméras avec supervision active en temps réel et recours à l'intelligence artificielle. Unité dédiée aux transports en commun. Présence policière aux entrées/sorties des écoles. Maximiser les pouvoirs du maire pour fermer les établissements impliqués dans des activités illicites.",
         "source_url": "https://www.francebleu.fr/emissions/l-invite-d-ici-matin-ici-occitanie/elections-municipales-a-toulouse-julien-leonardelli-le-candidat-du-rn-mise-avant-tout-sur-la-securite-3184117",
         "cout_estime": null
       },
       {
         "thematique": "transport",
-        "titre": "Prolongement du téléphérique et accès automobile",
-        "description": "Prolonger le téléphérique Téléo vers l'est de la commune. Opposition à la réduction des places de stationnement. Constat de « 40 ans de retard » sur la mobilité métropolitaine.",
-        "source_url": "https://lebonsenstoulousain.fr",
+        "titre": "Élargir la rocade et rétablir les zones à 50 km/h",
+        "description": "Élargissement de sections de la rocade pour réduire les embouteillages aux heures de pointe. Désynchronisation des horaires de travail pour lisser le trafic. Soutien à un RER Toulousain. Rétablissement des zones à 50 km/h là où la vitesse avait été abaissée à 30 km/h. Prolonger le téléphérique Téléo vers l'est. Opposition à la réduction des places de stationnement.",
+        "source_url": "https://www.mediacites.fr/breve/toulouse/2026/02/13/mobilites-le-rn-etale-la-vacuite-de-son-programme-a-toulouse/",
         "cout_estime": null
       },
       {
         "thematique": "education",
-        "titre": "Uniforme scolaire",
-        "description": "Instauration de l'uniforme scolaire dans les écoles municipales.",
-        "source_url": "https://lebonsenstoulousain.fr",
+        "titre": "Uniforme scolaire et cantines 100% locales",
+        "description": "Expérimentation de l'uniforme scolaire (volontaire, ~150 €/famille) pour réduire les inégalités. Plateforme numérique unique pour gérer toutes les démarches de la crèche à l'école. Développement des places en crèche avec priorité aux Toulousains. Temps calmes dans les activités périscolaires. Cantines transparentes avec approvisionnement 100% local. Végétalisation, ombre et climatisation dans les écoles.",
+        "source_url": "https://www.lepetitjournal.net/31-haute-garonne/e31t-toulousain/2026/01/30/rn-10-mesures-axees-sur-la-protection-des-familles-et-des-enfants/",
+        "cout_estime": null
+      },
+      {
+        "thematique": "fiscalite",
+        "titre": "Réduction de taxe foncière par enfant et bouclier énergétique",
+        "description": "Réduction de 25% de la taxe foncière pendant 5 ans par enfant pour les familles propriétaires modestes (~250 € d'économie par enfant). Bouclier énergétique municipal : jusqu'à 300 €/an pour les familles (revenu fiscal < 30 000 €). Financement via un audit des dépenses et la révision des subventions non essentielles. Suppression des voitures-radars. Revoir la politique du stationnement.",
+        "source_url": "https://www.touleco.fr/Julien-Leonardelli-veut-faire-entrer-le-RN-au-Capitole,50498",
+        "cout_estime": null
+      },
+      {
+        "thematique": "urbanisme",
+        "titre": "Arrêt de la densification et quartiers à taille humaine",
+        "description": "Arrêter la densification de Toulouse (stopper la politique de construction intensive). Repenser l'aménagement pour intégrer dès le départ équipements, espaces verts et accessibilité. Recréer des quartiers à taille humaine sur le modèle des quartiers historiques. Coordonner la planification des transports avec les nouvelles constructions.",
+        "source_url": "https://www.toulouseimmo9.com/actualites/politique/toulouse-municipales-2026-logement-programmes-candidats",
         "cout_estime": null
       },
       {
@@ -296,23 +349,16 @@
         "cout_estime": null
       },
       {
-        "thematique": "fiscalite",
-        "titre": "Baisser les impôts via les coupes de subventions",
-        "description": "Réduction de la taxe foncière financée par des coupes dans les subventions aux associations jugées non prioritaires et la réduction des dépenses de fonctionnement.",
-        "source_url": "https://lebonsenstoulousain.fr",
-        "cout_estime": null
-      },
-      {
         "thematique": "culture",
-        "titre": "Agrandir le Stadium",
-        "description": "Agrandissement du Stadium de Toulouse pour accueillir davantage de spectateurs.",
+        "titre": "Stade de dimension nationale",
+        "description": "Construction d'un stade de dimension nationale pour accueillir grandes compétitions sportives et événements culturels, avec espaces d'entraînement, possiblement en partenariat public-privé avec naming rights. Préservation des façades en briques (patrimoine architectural).",
         "source_url": "https://lebonsenstoulousain.fr",
         "cout_estime": null
       },
       {
         "thematique": "democratie",
         "titre": "Maires d'arrondissement élus",
-        "description": "Création d'arrondissements municipaux sur le modèle Paris/Lyon/Marseille, avec des maires d'arrondissement élus directement par les habitants.",
+        "description": "Création d'arrondissements municipaux sur le modèle Paris/Lyon/Marseille, avec des maires d'arrondissement élus directement par les habitants pour plus de proximité citoyenne. Ouverture de la liste à des candidats non-membres du RN (société civile).",
         "source_url": "https://lebonsenstoulousain.fr",
         "cout_estime": null
       }
@@ -329,19 +375,27 @@
     "bio": "Âgé de 44 ans, marié et père de deux enfants, Arthur Cottrel est Toulousain de naissance et réside à Saint-Cyprien. Ingénieur de formation, ancien auditeur financier et entrepreneur, il est pilote de ligne chez Air France (copilote sur Boeing 777) depuis plus de 15 ans. Délégué départemental de Reconquête! en Haute-Garonne depuis la fondation du parti en 2021, il a été candidat aux législatives 2022 et 2024 (1,5% en 2024). Investi à la conférence d'été du mouvement le 31 août 2025, il conduit la liste « J'aime Toulouse ».",
     "profession": "Pilote de ligne (Air France)",
     "site_web": "https://reconquete-toulouse.fr",
+    "source_status": "declarations",
     "mandats_precedents": [],
+    "points_cles": [
+      "Sécurité et fermeté comme fondement de l'action municipale",
+      "Préservation du patrimoine et de l'identité toulousaine",
+      "Revitalisation des commerces de proximité et convivialité locale",
+      "Ambition économique et écologique réaliste, sans décroissance",
+      "Rendre Toulouse attractive pour les familles"
+    ],
     "propositions": [
       {
         "thematique": "securite",
-        "titre": "Renforcer la sécurité et la fermeté",
-        "description": "Renforcement massif de la police municipale, vidéosurveillance étendue, politique de fermeté contre la délinquance et les incivilités.",
+        "titre": "Sécurité et fermeté au quotidien",
+        "description": "Renforcement massif de la police municipale, vidéosurveillance étendue, politique de fermeté contre la délinquance et les incivilités. Sécurité et tranquillité publique présentées comme fondement de l'action municipale. Lutte contre le « déclin » de Toulouse en matière de sécurité et de propreté.",
         "source_url": "https://reconquete-toulouse.fr/",
         "cout_estime": null
       },
       {
         "thematique": "urbanisme",
-        "titre": "Préserver l'identité et le patrimoine toulousain",
-        "description": "Protection du patrimoine architectural de la Ville rose, opposition aux projets qui dénaturent l'identité urbaine. Relancer la vie locale dans les quartiers.",
+        "titre": "Préserver le patrimoine et l'identité toulousaine",
+        "description": "Protection du patrimoine architectural de la Ville rose, opposition aux projets qui dénaturent l'identité urbaine. La ville doit redevenir « un lieu d'excellence, d'identité et de rayonnement ». Revitalisation de la convivialité locale autour des commerces de proximité.",
         "source_url": "https://reconquete-toulouse.fr/",
         "cout_estime": null
       }
@@ -358,84 +412,42 @@
     "bio": "Lambert Meilhac, 38 ans, est ingénieur aéronautique et responsable de l'association Deux-pieds-Deux-roues (promotion du vélo et de la marche). Domitille Allorant est ancienne infirmière au CHU de Toulouse, reconvertie en animatrice musicale, et a été candidate Equinoxe aux législatives 2024. Ensemble, ils portent le collectif citoyen « Nouvel Air », issu du mouvement Equinoxe, qui se veut « ni de droite, ni de gauche, pragmatique ». Trois principes directeurs : valoriser l'existant, contrôler les investissements, encourager le dynamisme civique et économique. Objectif : 15 000 voix.",
     "profession": "Ingénieur aéronautique / Ancienne infirmière",
     "site_web": "https://toulouse-nouvel-air.fr",
+    "source_status": "declarations",
     "mandats_precedents": [],
+    "points_cles": [
+      "Objectif 100 000 voitures en moins d'ici 2032",
+      "Hippodrome de la Cepière transformé en parc forestier et maraîchage",
+      "Stop au béton : réhabiliter l'existant plutôt que construire",
+      "Présence humaine plutôt que vidéosurveillance",
+      "Retour de l'eau en gestion publique"
+    ],
     "propositions": [
       {
         "thematique": "transport",
-        "titre": "100 000 voitures en moins d'ici 2032",
-        "description": "Retirer 100 000 voitures de la circulation dans l'aire urbaine d'ici 2032 via le développement massif des transports en commun et du vélo. Convertir les pénétrantes routières en sens unique pour libérer de l'espace pour bus et pistes cyclables. Opposition à la jonction Est (jugée coûteuse et inutile).",
-        "source_url": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/mobilite-urbanisme-securite-premieres-propositions-nouvel-air-toulouse-338602/",
+        "titre": "100 000 voitures en moins et pénétrantes en sens unique",
+        "description": "Retirer 100 000 voitures de la circulation d'ici 2032. Passer toutes les voies pénétrantes vers le centre-ville en sens unique pour aménager des voies de bus et des pistes cyclables. Remettre les piétons au cœur de la ville : interdire aux cyclistes et trottinettistes de circuler sur trottoirs et bords de canaux. Opposition à la jonction Est. Transfert des réseaux de mobilité en gestion publique.",
+        "source_url": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/municipales-2026-toulouse-nouvel-air-remet-pietons-coeur-du-debat-365073/",
         "cout_estime": null
       },
       {
         "thematique": "ecologie",
-        "titre": "Hippodrome de la Cepière : parc et maraîchage",
-        "description": "Transformer l'hippodrome de la Cepière en trois espaces : 10 hectares de parc forestier, 10 hectares de maraîchage, 14 hectares d'espaces de vie partagée (composteur, ferme pédagogique, amphithéâtre vert).",
+        "titre": "Hippodrome de la Cepière : parc, maraîchage et vie partagée",
+        "description": "Transformer l'hippodrome de la Cepière (34 ha) en trois espaces : 10 ha de parc forestier (îlot de fraîcheur), 10 ha de maraîchage en circuit court, 14 ha d'espaces de vie partagée (composteur, ferme pédagogique, théâtre de verdure). Toitures végétalisées, plus d'arbres dans les rues. Gestion publique de l'eau.",
         "source_url": "https://www.francebleu.fr/occitanie/haute-garonne-31/toulouse/municipales-a-toulouse-deux-candidats-veulent-transformer-l-hippodrome-une-aberration-pour-le-president-3710383",
         "cout_estime": null
       },
       {
         "thematique": "urbanisme",
         "titre": "Stop au béton, réhabiliter l'existant",
-        "description": "Opposition aux grands projets immobiliers. Priorité à la réhabilitation du bâti existant : « 75% de l'immobilier dont on aura besoin dans 25 ans est déjà construit ». Promouvoir la sobriété.",
+        "description": "Opposition aux grands projets immobiliers (Tour Occitanie, Jonction Est). Priorité à la réhabilitation du bâti existant : « 75% de l'immobilier dont on aura besoin dans 25 ans est déjà construit ». Concentrer les investissements sur des équipements de proximité. Meilleur maillage en piscines municipales.",
         "source_url": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/mobilite-urbanisme-securite-premieres-propositions-nouvel-air-toulouse-338602/",
         "cout_estime": null
       },
       {
         "thematique": "securite",
         "titre": "Présence humaine plutôt que vidéosurveillance",
-        "description": "Favoriser la présence humaine dans les quartiers plutôt que la multiplication des caméras de vidéosurveillance.",
+        "description": "Favoriser la présence humaine (patrouilles à pied) dans les quartiers plutôt que la multiplication des caméras de vidéosurveillance. Critique du tout-numérique sécuritaire.",
         "source_url": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/mobilite-urbanisme-securite-premieres-propositions-nouvel-air-toulouse-338602/",
-        "cout_estime": null
-      }
-    ]
-  },
-  {
-    "id": "pezzin",
-    "commune_slug": "toulouse",
-    "nom": "Pezzin",
-    "prenom": "Pierre",
-    "photo": "/images/candidats/pezzin-pierre.jpg",
-    "parti": "Pour un Langage Citoyen / Aimer Tolosa",
-    "slogan": "Aimer Tolosa",
-    "bio": "Âgé de 62 ans, né à Marmande, Pierre Pezzin est ancien militaire, diplômé en aéronautique, puis a fait carrière dans la banque d'investissement (notamment chez Barclays) avant de devenir agent immobilier. Récemment retraité, il se définit comme « social-démocrate, libéral, gaulliste ». Candidat aux législatives en 2012, il fonde le mouvement « Pour un Langage Citoyen » et recrute ses 69 colistiers via des annonces sur les réseaux sociaux. Il est soutenu par des mouvements occitanistes (Pais Nostre, Parti de la Nation Occitane). Sa proposition phare : renommer Toulouse en « Tolosa », son nom historique celte et romain.",
-    "profession": "Retraité (ex-banque d'investissement)",
-    "site_web": "https://pour-un-langage-citoyen.fr",
-    "mandats_precedents": [],
-    "propositions": [
-      {
-        "thematique": "democratie",
-        "titre": "Triplement du budget participatif",
-        "description": "Tripler le budget participatif actuel, focalisé sur trois axes : nature en ville, sport-santé, accessibilité. Transparence totale de la gestion municipale, publication en open data de l'intégralité des dépenses.",
-        "source_url": "https://pour-un-langage-citoyen.fr/",
-        "cout_estime": null
-      },
-      {
-        "thematique": "culture",
-        "titre": "Renommer Toulouse en « Tolosa »",
-        "description": "Revenir au nom historique de la ville : « Tolosa est notre nom originel, celui de la capitale des Celtes, des Wisigoths, des Romains, du Moyen Âge, un nom qui résonne à travers 2 000 ans d'histoire. » Faire de Tolosa la capitale européenne de l'aéronautique, du spatial et de l'IA.",
-        "source_url": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/nouveau-candidat-municipales-toulouse-veut-renommer-ville-343926/",
-        "cout_estime": null
-      },
-      {
-        "thematique": "urbanisme",
-        "titre": "Stade connecté et logements modulaires",
-        "description": "Construction d'un stade connecté polyvalent de 17 000 places à côté du Stadium. Logements modulaires composites de 15 m² à 250€/mois pour étudiants, SDF et retraités au minimum vieillesse. Corridor vert reliant Toulouse aux villes satellites. Rénovation plutôt que démolition (Empalot, Saouzelong).",
-        "source_url": "https://pour-un-langage-citoyen.fr/",
-        "cout_estime": null
-      },
-      {
-        "thematique": "transport",
-        "titre": "Transports gratuits pour seniors et jeunes",
-        "description": "Transports en commun gratuits pour les seniors et les moins de 25 ans.",
-        "source_url": "https://pour-un-langage-citoyen.fr/",
-        "cout_estime": null
-      },
-      {
-        "thematique": "social",
-        "titre": "Repas gratuits pour les sans-abri",
-        "description": "Garantir un repas gratuit à toute personne sans domicile. Contrats de vie intergénérationnels mettant en relation jeunes et propriétaires âgés.",
-        "source_url": "http://www.univers-cites.fr/2026/02/07/tolosa-cest-avant-tout-une-force-interview-avec-pierre-pezzin-candidat-independant-aux-municipales-2026-a-toulouse/",
         "cout_estime": null
       }
     ]

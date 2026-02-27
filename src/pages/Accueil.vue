@@ -96,10 +96,10 @@ const enjeux = [
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z" />
         </svg>
         <div>
-          <p class="text-sm font-semibold text-amber-800 dark:text-amber-200">Programmes provisoires</p>
+          <p class="text-sm font-semibold text-amber-800 dark:text-amber-200">Programmes mis à jour</p>
           <p class="text-xs text-amber-700 dark:text-amber-300 mt-1">
-            Les positions des candidats sont actuellement basées sur leurs déclarations publiques et programmes publiés.
-            Les professions de foi officielles seront déposées le <strong>26 février 2026</strong> — les données seront mises à jour à cette date.
+            Les positions des candidats sont basées sur leurs programmes officiels publiés depuis le dépôt des professions de foi (26 février 2026).
+            Des mises à jour sont possibles en cas de nouvelles déclarations. <strong>Chaque position est sourcée.</strong>
           </p>
         </div>
       </div>
@@ -111,8 +111,8 @@ const enjeux = [
         <h2 class="text-xl font-bold text-neutral-800 dark:text-neutral-100 mb-4">Les municipales 2026 à Toulouse</h2>
         <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
           <div class="bg-accent/50 dark:bg-primary/10 rounded-lg p-4 text-center">
-            <p class="text-2xl font-bold text-primary">7</p>
-            <p class="text-sm text-neutral-600 dark:text-neutral-300">Candidats déclarés</p>
+            <p class="text-2xl font-bold text-primary">6</p>
+            <p class="text-sm text-neutral-600 dark:text-neutral-300">Listes en lice</p>
           </div>
           <div class="bg-accent/50 dark:bg-primary/10 rounded-lg p-4 text-center">
             <p class="text-2xl font-bold text-primary">14 mars</p>
@@ -133,9 +133,9 @@ const enjeux = [
             Le maire sortant <strong>Jean-Luc Moudenc</strong> (divers droite), en place depuis 2014, brigue un troisième mandat.
           </p>
           <p>
-            Face à lui, la gauche présente deux listes concurrentes : <strong>François Briançon</strong> (union PS-EELV-PCF-Archipel Citoyen) et <strong>François Piquemal</strong> (LFI-NFP).
+            Face à lui, la gauche présente deux listes concurrentes : <strong>François Briançon</strong> (union PS-EELV-PCF-Place Publique) et <strong>François Piquemal</strong> (LFI-NFP).
             À droite, <strong>Julien Léonardelli</strong> (RN) et <strong>Arthur Cottrel</strong> (Reconquête!) portent les listes souverainistes.
-            Deux candidatures citoyennes complètent le panorama : <strong>Nouvel Air</strong> (écologie) et <strong>Pierre Pezzin</strong> (démocratie participative).
+            Le collectif citoyen <strong>Nouvel Air</strong> (Equinoxe) complète le panorama avec une approche pragmatique et écologiste.
           </p>
         </div>
       </div>
@@ -176,7 +176,7 @@ const enjeux = [
 
     <!-- Candidats -->
     <section class="pb-12">
-      <h2 class="text-2xl font-bold text-neutral-800 dark:text-neutral-100 mb-6">Les 7 candidats</h2>
+      <h2 class="text-2xl font-bold text-neutral-800 dark:text-neutral-100 mb-6">Les candidats</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         <CandidatCard
           v-for="candidat in candidats"

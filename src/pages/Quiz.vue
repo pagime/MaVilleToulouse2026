@@ -73,7 +73,7 @@ function startOver() {
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z" />
             </svg>
             <p class="text-xs text-amber-700 dark:text-amber-300">
-              Les positions sont basées sur les déclarations publiques actuelles. Mise à jour prévue après le dépôt des professions de foi le <strong>26 février 2026</strong>.
+              Les positions sont basées sur les programmes officiels des candidats, mis à jour après le dépôt des professions de foi. <strong>Chaque position est sourcée.</strong>
             </p>
           </div>
           <p class="text-xs text-neutral-400 dark:text-neutral-500 mt-3">

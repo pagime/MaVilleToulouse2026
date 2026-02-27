@@ -16,7 +16,7 @@ const faqs = [
   {
     id: 'sources',
     question: "D'où viennent les positions attribuées aux candidats ?",
-    answer: "Les positions sont basées sur les programmes officiels publiés par les candidats, leurs déclarations publiques (interviews, débats, communiqués) et leurs votes antérieurs. Chaque position est accompagnée d'un lien vers sa source. Les professions de foi officielles seront déposées le 26 février 2026 et les données seront mises à jour."
+    answer: "Les positions sont basées sur les programmes officiels publiés par les candidats, leurs déclarations publiques (interviews, débats, communiqués) et leurs votes antérieurs. Chaque position est accompagnée d'un lien vers sa source. Les données ont été mises à jour suite au dépôt des professions de foi le 26 février 2026."
   },
   {
     id: 'neutralite',
@@ -46,7 +46,7 @@ const faqs = [
   {
     id: 'maj',
     question: 'Quand les données seront-elles mises à jour ?',
-    answer: "Les professions de foi officielles seront déposées le 26 février 2026. Les positions des candidats seront mises à jour à cette date avec les programmes définitifs. Le site affichera un bandeau pour signaler la mise à jour."
+    answer: "Les professions de foi ont été déposées le 26 février 2026. Les positions des candidats ont été mises à jour avec les programmes officiels. Le site est régulièrement actualisé en cas de nouvelles déclarations ou de corrections demandées par les équipes de campagne."
   }
 ]
 </script>

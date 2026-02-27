@@ -110,6 +110,21 @@ function closeAll() {
       </div>
     </div>
 
+    <!-- Points clés -->
+    <div v-if="candidat.points_cles?.length" class="bg-white rounded-xl shadow-sm border border-neutral-200 p-6 mb-6 dark:bg-neutral-800 dark:border-neutral-700">
+      <h2 class="text-lg font-bold text-neutral-800 mb-4 dark:text-neutral-100">5 points clés du programme</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-5 gap-3">
+        <div
+          v-for="(point, i) in candidat.points_cles"
+          :key="i"
+          class="flex items-start gap-3 p-3 rounded-lg bg-neutral-50 dark:bg-neutral-700/50"
+        >
+          <span class="flex-shrink-0 w-7 h-7 rounded-full bg-primary/10 text-primary font-bold text-sm flex items-center justify-center">{{ i + 1 }}</span>
+          <p class="text-sm text-neutral-700 dark:text-neutral-200 font-medium leading-snug">{{ point }}</p>
+        </div>
+      </div>
+    </div>
+
     <!-- Bio + chiffres clés -->
     <div class="grid md:grid-cols-3 gap-6 mb-6">
       <div class="md:col-span-2 bg-white rounded-xl shadow-sm border border-neutral-200 p-6 dark:bg-neutral-800 dark:border-neutral-700">
