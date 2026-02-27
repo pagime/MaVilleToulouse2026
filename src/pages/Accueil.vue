@@ -1,17 +1,8 @@
 <script setup>
-import { computed } from 'vue'
-import CandidatCard from '../components/CandidatCard.vue'
 import ReserveBanner from '../components/ReserveBanner.vue'
-import { useShuffle } from '../composables/useShuffle'
 import { useReserve } from '../composables/useReserve'
-import candidatsData from '../data/candidats.json'
 
-const { shuffle } = useShuffle()
 const { isReserve } = useReserve()
-
-const candidats = computed(() => shuffle(
-  candidatsData.filter(c => c.commune_slug === 'toulouse')
-))
 
 const enjeux = [
   {
@@ -79,31 +70,15 @@ const enjeux = [
           Faire le quiz (3 min)
         </router-link>
         <router-link
-          to="/comparer"
+          to="/candidats"
           class="inline-flex items-center justify-center px-8 py-3 border-2 border-primary text-primary font-semibold rounded-lg hover:bg-primary/5 transition-colors"
         >
-          Comparer les programmes
+          Voir les candidats
         </router-link>
       </div>
     </section>
 
     <ReserveBanner />
-
-    <!-- Bannière programmes provisoires -->
-    <section class="mb-6">
-      <div class="bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-700 rounded-xl p-4 flex items-start gap-3">
-        <svg class="w-5 h-5 text-amber-500 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z" />
-        </svg>
-        <div>
-          <p class="text-sm font-semibold text-amber-800 dark:text-amber-200">Programmes mis à jour</p>
-          <p class="text-xs text-amber-700 dark:text-amber-300 mt-1">
-            Les positions des candidats sont basées sur leurs programmes officiels publiés depuis le dépôt des professions de foi (26 février 2026).
-            Des mises à jour sont possibles en cas de nouvelles déclarations. <strong>Chaque position est sourcée.</strong>
-          </p>
-        </div>
-      </div>
-    </section>
 
     <!-- Contexte électoral -->
     <section class="mb-10">
@@ -111,7 +86,7 @@ const enjeux = [
         <h2 class="text-xl font-bold text-neutral-800 dark:text-neutral-100 mb-4">Les municipales 2026 à Toulouse</h2>
         <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
           <div class="bg-accent/50 dark:bg-primary/10 rounded-lg p-4 text-center">
-            <p class="text-2xl font-bold text-primary">6</p>
+            <p class="text-2xl font-bold text-primary">10</p>
             <p class="text-sm text-neutral-600 dark:text-neutral-300">Listes en lice</p>
           </div>
           <div class="bg-accent/50 dark:bg-primary/10 rounded-lg p-4 text-center">
@@ -133,9 +108,9 @@ const enjeux = [
             Le maire sortant <strong>Jean-Luc Moudenc</strong> (divers droite), en place depuis 2014, brigue un troisième mandat.
           </p>
           <p>
-            Face à lui, la gauche présente deux listes concurrentes : <strong>François Briançon</strong> (union PS-EELV-PCF-Place Publique) et <strong>François Piquemal</strong> (LFI-NFP).
+            Face à lui, la gauche présente deux listes : <strong>François Briançon</strong> (PS-EELV-PCF-Place Publique) et <strong>François Piquemal</strong> (LFI-NFP).
             À droite, <strong>Julien Léonardelli</strong> (RN) et <strong>Arthur Cottrel</strong> (Reconquête!) portent les listes souverainistes.
-            Le collectif citoyen <strong>Nouvel Air</strong> (Equinoxe) complète le panorama avec une approche pragmatique et écologiste.
+            Le collectif citoyen <strong>Nouvel Air</strong> et quatre listes d'extrême gauche complètent le panorama.
           </p>
         </div>
       </div>
@@ -172,21 +147,6 @@ const enjeux = [
           </div>
         </router-link>
       </div>
-    </section>
-
-    <!-- Candidats -->
-    <section class="pb-12">
-      <h2 class="text-2xl font-bold text-neutral-800 dark:text-neutral-100 mb-6">Les candidats</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-        <CandidatCard
-          v-for="candidat in candidats"
-          :key="candidat.id"
-          :candidat="candidat"
-        />
-      </div>
-      <p class="text-xs text-neutral-400 dark:text-neutral-500 mt-4 text-center">
-        L'ordre d'affichage des candidats est aléatoire et change à chaque chargement.
-      </p>
     </section>
 
     <!-- Comment ça marche -->

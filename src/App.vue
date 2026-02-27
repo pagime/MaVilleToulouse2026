@@ -29,6 +29,13 @@ function closeMobile() {
             Quiz
           </RouterLink>
           <RouterLink
+            to="/candidats"
+            class="px-3 py-2 rounded-lg text-neutral-600 dark:text-neutral-300 hover:text-primary hover:bg-neutral-50 dark:hover:bg-neutral-700 transition-colors font-medium"
+            active-class="text-primary bg-primary/5 dark:bg-primary/10"
+          >
+            Candidats
+          </RouterLink>
+          <RouterLink
             to="/comparer"
             class="px-3 py-2 rounded-lg text-neutral-600 dark:text-neutral-300 hover:text-primary hover:bg-neutral-50 dark:hover:bg-neutral-700 transition-colors font-medium"
             active-class="text-primary bg-primary/5 dark:bg-primary/10"
@@ -83,6 +90,9 @@ function closeMobile() {
       <Transition name="menu-slide">
         <div v-if="mobileMenuOpen" class="sm:hidden border-t border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-800">
           <div class="px-4 py-3 space-y-1">
+            <RouterLink to="/candidats" @click="closeMobile" class="block px-3 py-2 rounded-lg text-neutral-600 dark:text-neutral-300 hover:text-primary hover:bg-neutral-50 dark:hover:bg-neutral-700 transition-colors font-medium" active-class="text-primary bg-primary/5 dark:bg-primary/10">
+              Candidats
+            </RouterLink>
             <RouterLink to="/quiz" @click="closeMobile" class="block px-3 py-2 rounded-lg text-neutral-600 dark:text-neutral-300 hover:text-primary hover:bg-neutral-50 dark:hover:bg-neutral-700 transition-colors font-medium" active-class="text-primary bg-primary/5 dark:bg-primary/10">
               Quiz
             </RouterLink>

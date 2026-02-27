@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../pages/Accueil.vue')
   },
   {
+    path: '/candidats',
+    name: 'candidats',
+    component: () => import('../pages/Candidats.vue')
+  },
+  {
     path: '/candidat/:id',
     name: 'candidat',
     component: () => import('../pages/Candidat.vue')

@@ -451,5 +451,174 @@
         "cout_estime": null
       }
     ]
+  },
+  {
+    "id": "adrada",
+    "commune_slug": "toulouse",
+    "nom": "Adrada",
+    "prenom": "Malena",
+    "photo": null,
+    "parti": "Lutte Ouvrière",
+    "slogan": "Le camp des travailleurs",
+    "bio": "Âgée de 53 ans, Malena Adrada est professeure des écoles et porte-parole de Lutte Ouvrière en Haute-Garonne. Franco-espagnole, elle a été tête de liste LO à Muret en 2014, puis à Toulouse aux municipales de 2020 (0,46% des voix). Elle a également concouru aux régionales 2021 et aux législatives 2024. Sa colistière n°2 est Olivier Le Penven, ouvrier dans l'aéronautique et délégué syndical chez Airbus.",
+    "profession": "Professeure des écoles",
+    "site_web": "https://www.lutte-ouvriere.org/portail/elections/municipales-2026-toulouse-189442.html",
+    "source_status": "declarations",
+    "mandats_precedents": [],
+    "points_cles": [
+      "Augmentation des salaires et contre l'exploitation capitaliste",
+      "Gratuité et renforcement des services publics municipaux",
+      "Contre les politiques d'austérité étatique et municipale",
+      "Unité des travailleurs contre les divisions",
+      "Opposition à la marche vers la guerre et au réarme militaire"
+    ],
+    "propositions": [
+      {
+        "thematique": "social",
+        "titre": "Défendre les salaires et les conditions de travail",
+        "description": "Augmentation des salaires et des traitements de la fonction publique. Lutte contre les suppressions de postes d'enseignants. Priorité aux dépenses bénéficiant aux classes populaires.",
+        "source_url": "https://www.lutte-ouvriere.org/portail/elections/municipales-2026-toulouse-189442.html",
+        "cout_estime": null
+      },
+      {
+        "thematique": "education",
+        "titre": "Combattre les suppressions de postes dans l'éducation",
+        "description": "Lutte contre les postes d'enseignants non remplacés et les fermetures de classes. Défense d'une école publique de qualité pour les enfants des classes populaires.",
+        "source_url": "https://www.lutte-ouvriere.org/portail/elections/municipales-2026-toulouse-189442.html",
+        "cout_estime": null
+      }
+    ]
+  },
+  {
+    "id": "pedinotti",
+    "commune_slug": "toulouse",
+    "nom": "Pedinotti",
+    "prenom": "Vanessa",
+    "photo": null,
+    "parti": "Révolution Permanente",
+    "slogan": "Une Travailleuse au Capitole !",
+    "bio": "Âgée de 39 ans, Vanessa Pedinotti est ouvrière et syndicaliste CGT dans la sous-traitance aérospatiale (Magellium-Artal). Née en Seine-Saint-Denis, elle a grandi en Guadeloupe et vit à Toulouse depuis 15 ans. Active dans les mobilisations sociales (retraites, solidarité Palestine, grèves culturelles), elle mène une liste de 71 candidats (48 travailleurs, 23 étudiants). Révolution Permanente participe pour la première fois à des élections municipales.",
+    "profession": "Ouvrière aérospatiale, déléguée CGT",
+    "site_web": "https://vanessapedinotti.municipales-rp.fr/",
+    "source_status": "declarations",
+    "mandats_precedents": [],
+    "points_cles": [
+      "Élus révocables payés au salaire d'une infirmière, mandats de 2 ans",
+      "Réquisition des 46 000 logements vides de Toulouse",
+      "Gratuité des transports en commun",
+      "Titularisation de tous les travailleurs précaires de la fonction publique",
+      "Désarmement de la police municipale"
+    ],
+    "propositions": [
+      {
+        "thematique": "democratie",
+        "titre": "Élus révocables et mandats de 2 ans",
+        "description": "Mandats de 2 ans, révocables. Élus payés au salaire d'une infirmière, sans cumul. Droit de vote dès 16 ans, pour tous les résidants sans condition de nationalité. Liberté d'affichage et de manifestation.",
+        "source_url": "https://www.revolutionpermanente.fr/Toulouse-Vanessa-Pedinotti-et-RP-presentent-leur-programme-pour-la-liste-Une-Travailleuse-au",
+        "cout_estime": null
+      },
+      {
+        "thematique": "urbanisme",
+        "titre": "Réquisition des 46 000 logements vides",
+        "description": "Réquisition des 46 000 appartements vides à Toulouse pour les populations vulnérables. Encadrement strict des loyers. Opposition aux démolitions dans le quartier du Mirail.",
+        "source_url": "https://www.revolutionpermanente.fr/Toulouse-Vanessa-Pedinotti-et-RP-presentent-leur-programme-pour-la-liste-Une-Travailleuse-au",
+        "cout_estime": null
+      },
+      {
+        "thematique": "transport",
+        "titre": "Gratuité totale des transports en commun",
+        "description": "Gratuité complète des transports en commun Tisséo pour tous les usagers.",
+        "source_url": "https://www.revolutionpermanente.fr/Toulouse-Vanessa-Pedinotti-et-RP-presentent-leur-programme-pour-la-liste-Une-Travailleuse-au",
+        "cout_estime": null
+      },
+      {
+        "thematique": "securite",
+        "titre": "Désarmement de la police municipale",
+        "description": "Désarmement de la police municipale. Commissions de contrôle indépendantes. Centres de droits pour migrants. Fermeture des centres de rétention administrative.",
+        "source_url": "https://www.revolutionpermanente.fr/Toulouse-Vanessa-Pedinotti-et-RP-presentent-leur-programme-pour-la-liste-Une-Travailleuse-au",
+        "cout_estime": null
+      },
+      {
+        "thematique": "social",
+        "titre": "Titularisation des précaires et 3e hôpital",
+        "description": "Fin de la précarité dans la fonction publique : titularisation de tous les contractuels. Abrogation de la réforme Proxima. Construction d'un 3e hôpital à Toulouse. Développement des crèches publiques.",
+        "source_url": "https://www.revolutionpermanente.fr/Toulouse-Vanessa-Pedinotti-et-RP-presentent-leur-programme-pour-la-liste-Une-Travailleuse-au",
+        "cout_estime": null
+      }
+    ]
+  },
+  {
+    "id": "menendez",
+    "commune_slug": "toulouse",
+    "nom": "Menendez",
+    "prenom": "Julian",
+    "photo": null,
+    "parti": "Parti des travailleurs (ex-POID)",
+    "slogan": "Toulouse aux travailleurs, pas aux spéculateurs",
+    "bio": "Julian Menendez est fonctionnaire d'État aux Finances Publiques (agent des impôts) et militant ouvrier toulousain dans le courant lambertiste. Candidat aux législatives 2017 (4e circ. Haute-Garonne) et aux municipales 2020 à Toulouse, il mène une liste qualifiée de « liste surprise » par la presse locale, regroupant travailleurs, retraités et jeunes engagés dans les mobilisations pour le retrait de la réforme des retraites.",
+    "profession": "Fonctionnaire (Finances Publiques)",
+    "site_web": "https://parti-des-travailleurs.fr/",
+    "source_status": "declarations",
+    "mandats_precedents": [],
+    "points_cles": [
+      "Réquisition des 23 000 logements vides pour les sans-abri",
+      "Retrait de la réforme des retraites, défense des acquis sociaux",
+      "Redirection des aides aux entreprises vers santé et éducation",
+      "Contre la spéculation immobilière et les opérations d'aménagement",
+      "Défense des services publics contre les fermetures"
+    ],
+    "propositions": [
+      {
+        "thematique": "urbanisme",
+        "titre": "Réquisition des logements vacants",
+        "description": "Réquisition des 23 000 logements vacants recensés à Toulouse pour les milliers de familles et de jeunes sans logement. Opposition à la spéculation immobilière et aux opérations d'aménagement au profit des financiers.",
+        "source_url": "https://parti-des-travailleurs.fr/2026/01/13/nos-listes-aux-elections-municipales-2026/",
+        "cout_estime": null
+      },
+      {
+        "thematique": "social",
+        "titre": "Rediriger les subventions vers la santé et l'éducation",
+        "description": "Redirection des subventions aux entreprises vers la santé et l'éducation. Contre les fermetures de classes et d'établissements scolaires. Contre les licenciements et les délocalisations.",
+        "source_url": "https://parti-des-travailleurs.fr/2026/01/13/nos-listes-aux-elections-municipales-2026/",
+        "cout_estime": null
+      }
+    ]
+  },
+  {
+    "id": "scali",
+    "commune_slug": "toulouse",
+    "nom": "Scali",
+    "prenom": "Guillaume",
+    "photo": null,
+    "parti": "NPA Révolutionnaires",
+    "slogan": "Toulouse ouvrière et révolutionnaire",
+    "bio": "Âgé de 37 ans, Guillaume Scali est ajusteur-monteur sur la ligne d'assemblage A350 d'Airbus à Toulouse et délégué syndical CGT. Engagé dans les luttes syndicales contre les cadences dans l'industrie aéronautique, il mène une liste de 69 candidats représentant de nombreux corps de métier (éducateurs, soignants, ingénieurs, étudiants). Sa colistière n°2 est Nathanaëlle Loubet, 29 ans, enseignante au lycée. Le NPA Révolutionnaires participe pour la première fois aux municipales de Toulouse.",
+    "profession": "Ajusteur-monteur Airbus, délégué CGT",
+    "site_web": "https://npa-revolutionnaires.org/",
+    "source_status": "declarations",
+    "mandats_precedents": [],
+    "points_cles": [
+      "Défendre les services publics contre la privatisation municipale",
+      "Construction d'un 3e hôpital, accès aux urgences du CHU",
+      "Contre la gentrification, pour le logement social dans les quartiers populaires",
+      "Solidarité internationale (Palestine, mineurs isolés)",
+      "Contrôle ouvrier de l'industrie aéronautique"
+    ],
+    "propositions": [
+      {
+        "thematique": "social",
+        "titre": "Contre la privatisation des services publics municipaux",
+        "description": "Opposition à la privatisation des services publics municipaux. Contre la réduction des budgets des MJC et médiathèques. Pour la construction d'un 3e hôpital. Contre les fermetures de filières universitaires et le manque d'enseignants remplaçants.",
+        "source_url": "https://npa-revolutionnaires.org/dans-lopinion-independante-municipales-2026-le-npa-revolutionnaires-lance-sa-liste-toulouse-ouvriere-revolutionnaire/",
+        "cout_estime": null
+      },
+      {
+        "thematique": "urbanisme",
+        "titre": "Contre la gentrification et pour le logement social",
+        "description": "Opposition à la gentrification et aux inégalités spatiales. Défense de l'accès au logement social. Critique de la 3e ligne de métro (priorité donnée aux sites Airbus plutôt qu'aux quartiers populaires).",
+        "source_url": "https://npa-revolutionnaires.org/dans-actutoulouse-municipales-2026-a-toulouse-ouvrier-dairbus-prof-qui-sont-les-candidats-de-la-liste-npa-revolutionnaires/",
+        "cout_estime": null
+      }
+    ]
   }
 ]
