@@ -1,0 +1,98 @@
+[
+  {
+    "terme": "Tisséo",
+    "definition": "Syndicat mixte des transports en commun de l'agglomération toulousaine. Gère le métro (lignes A et B, future ligne C), le tramway, les bus et le téléphérique Téléo."
+  },
+  {
+    "terme": "RER métropolitain",
+    "definition": "Projet de réseau express régional reliant les communes de la périphérie toulousaine au centre-ville par des trains cadencés, sur le modèle du RER parisien ou du S-Bahn allemand."
+  },
+  {
+    "terme": "taxe foncière",
+    "definition": "Impôt local annuel payé par les propriétaires de biens immobiliers (bâtis ou non). Son taux est fixé par la commune et finance les services publics locaux."
+  },
+  {
+    "terme": "encadrement des loyers",
+    "definition": "Dispositif légal qui plafonne les loyers à un montant de référence fixé par le préfet, en fonction du quartier, du type et de l'époque du logement. Appliqué à Paris, Lyon, Lille et Montpellier."
+  },
+  {
+    "terme": "logements sociaux",
+    "definition": "Logements construits avec l'aide de l'État et proposés à des loyers inférieurs au marché (HLM). La loi SRU impose aux communes de plus de 3 500 habitants d'en avoir au moins 25 %."
+  },
+  {
+    "terme": "vidéosurveillance",
+    "definition": "Système de caméras installées dans l'espace public, reliées à un centre de supervision urbain (CSU). Toulouse compte environ 400 caméras, le maire sortant propose d'en installer 1 000 de plus."
+  },
+  {
+    "terme": "police municipale",
+    "definition": "Force de police placée sous l'autorité du maire. Contrairement à la police nationale, elle assure principalement la prévention, la tranquillité publique et le respect des arrêtés municipaux."
+  },
+  {
+    "terme": "végétalisation",
+    "definition": "Action de planter des arbres, créer des espaces verts et désimperméabiliser les sols en ville pour lutter contre les îlots de chaleur, améliorer la qualité de l'air et favoriser la biodiversité."
+  },
+  {
+    "terme": "rénovation thermique",
+    "definition": "Travaux d'isolation (murs, toiture, fenêtres) et de modernisation du chauffage d'un bâtiment pour réduire sa consommation d'énergie et ses émissions de gaz à effet de serre."
+  },
+  {
+    "terme": "budget participatif",
+    "definition": "Part du budget municipal dont l'utilisation est décidée directement par les habitants via un vote. Les citoyens proposent des projets et votent pour ceux qu'ils souhaitent voir réalisés."
+  },
+  {
+    "terme": "référendum local",
+    "definition": "Consultation organisée par la commune permettant aux électeurs de se prononcer directement sur une décision relevant de la compétence de la collectivité. Le résultat est contraignant si le quorum est atteint."
+  },
+  {
+    "terme": "mutuelle communale",
+    "definition": "Complémentaire santé négociée par la mairie auprès d'un assureur pour offrir des tarifs avantageux aux habitants, notamment ceux qui n'ont pas de couverture via leur employeur."
+  },
+  {
+    "terme": "Airbnb",
+    "definition": "Plateforme de location touristique de courte durée entre particuliers. Accusée de retirer des logements du marché locatif classique et de faire monter les loyers dans les centres-villes."
+  },
+  {
+    "terme": "logements vacants",
+    "definition": "Logements inoccupés depuis au moins un an, ni loués ni habités par leur propriétaire. Toulouse en compterait environ 30 000 selon l'INSEE."
+  },
+  {
+    "terme": "Smart City",
+    "definition": "Ville intelligente utilisant les technologies numériques (capteurs, données, intelligence artificielle) pour optimiser la gestion des services urbains : circulation, énergie, déchets, éclairage, etc."
+  },
+  {
+    "terme": "open data",
+    "definition": "Mise à disposition gratuite et libre des données publiques (budgets, transports, urbanisme) pour permettre leur réutilisation par les citoyens, chercheurs ou entreprises."
+  },
+  {
+    "terme": "fracture numérique",
+    "definition": "Inégalité d'accès et d'usage des outils numériques (internet, ordinateur, smartphone) qui touche particulièrement les personnes âgées, précaires ou isolées."
+  },
+  {
+    "terme": "conseil municipal",
+    "definition": "Assemblée élue qui administre la commune. À Toulouse, il est composé de 69 conseillers municipaux élus pour 6 ans. Il vote le budget, les impôts locaux et les grandes orientations."
+  },
+  {
+    "terme": "PLU",
+    "definition": "Plan Local d'Urbanisme : document qui définit les règles d'occupation des sols d'une commune (zones constructibles, hauteurs maximales, espaces protégés). Il encadre toutes les constructions."
+  },
+  {
+    "terme": "îlots de chaleur",
+    "definition": "Zones urbaines où la température est sensiblement plus élevée que dans les espaces ruraux environnants, en raison de la densité du bâti, de l'asphalte et du manque de végétation."
+  },
+  {
+    "terme": "métropole",
+    "definition": "Toulouse Métropole regroupe 37 communes et environ 800 000 habitants. Elle gère les compétences intercommunales : transports, voirie, eau, assainissement, développement économique."
+  },
+  {
+    "terme": "cantines scolaires",
+    "definition": "Service de restauration scolaire géré par la commune pour les écoles maternelles et élémentaires. La mairie fixe les tarifs (souvent selon le quotient familial) et choisit les menus."
+  },
+  {
+    "terme": "loi SRU",
+    "definition": "Loi Solidarité et Renouvellement Urbain (2000) qui impose aux communes de plus de 3 500 habitants d'atteindre 25 % de logements sociaux, sous peine de pénalités financières."
+  },
+  {
+    "terme": "IoT",
+    "definition": "Internet of Things (Internet des objets) : réseau de capteurs connectés (qualité de l'air, niveau de bruit, remplissage des poubelles, etc.) permettant de piloter la ville en temps réel."
+  }
+]

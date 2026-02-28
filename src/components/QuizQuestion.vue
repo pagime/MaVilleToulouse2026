@@ -1,5 +1,6 @@
 <script setup>
 import { ref, watch } from 'vue'
+import GlossaryText from './GlossaryText.vue'
 
 const props = defineProps({
   question: { type: Object, required: true },
@@ -56,7 +57,7 @@ function updateImportance(value) {
 <template>
   <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-6 md:p-8">
     <h2 class="text-xl md:text-2xl font-semibold text-neutral-900 leading-snug mb-4">
-      {{ question.texte }}
+      <GlossaryText :text="question.texte" />
     </h2>
 
     <button
@@ -79,7 +80,7 @@ function updateImportance(value) {
       v-if="showContext && question.contexte"
       class="bg-accent/50 border border-primary/10 rounded-lg p-4 mb-6 text-sm text-neutral-700 leading-relaxed"
     >
-      {{ question.contexte }}
+      <GlossaryText :text="question.contexte" />
     </div>
 
     <div class="space-y-3 mb-8" role="radiogroup" :aria-label="question.texte">
