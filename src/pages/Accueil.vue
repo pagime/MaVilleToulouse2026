@@ -90,16 +90,12 @@ const enjeux = [
             <p class="text-sm text-neutral-600 dark:text-neutral-300">Listes en lice</p>
           </div>
           <div class="bg-accent/50 dark:bg-primary/10 rounded-lg p-4 text-center">
-            <p class="text-2xl font-bold text-primary">14 mars</p>
+            <p class="text-2xl font-bold text-primary">15 mars</p>
             <p class="text-sm text-neutral-600 dark:text-neutral-300">1er tour</p>
           </div>
           <div class="bg-accent/50 dark:bg-primary/10 rounded-lg p-4 text-center">
-            <p class="text-2xl font-bold text-primary">21 mars</p>
+            <p class="text-2xl font-bold text-primary">22 mars</p>
             <p class="text-sm text-neutral-600 dark:text-neutral-300">2nd tour</p>
-          </div>
-          <div class="bg-accent/50 dark:bg-primary/10 rounded-lg p-4 text-center">
-            <p class="text-2xl font-bold text-primary">~500 000</p>
-            <p class="text-sm text-neutral-600 dark:text-neutral-300">Habitants concernés</p>
           </div>
         </div>
         <div class="text-sm text-neutral-600 dark:text-neutral-300 space-y-2">

@@ -17,7 +17,7 @@ const candidats = computed(() => shuffle(
       Les candidats aux municipales 2026
     </h1>
     <p class="text-neutral-600 dark:text-neutral-300 mb-8">
-      {{ candidats.length }} listes sont officiellement en lice pour les élections municipales de Toulouse les 14 et 21 mars 2026.
+      {{ candidats.length }} listes sont officiellement en lice pour les élections municipales de Toulouse les 15 et 22 mars 2026.
     </p>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
