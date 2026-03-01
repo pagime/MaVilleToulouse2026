@@ -463,27 +463,83 @@
     "bio": "Âgée de 53 ans, Malena Adrada est professeure des écoles et porte-parole de Lutte Ouvrière en Haute-Garonne. Franco-espagnole, elle a été tête de liste LO à Muret en 2014, puis à Toulouse aux municipales de 2020 (0,46% des voix). Elle a également concouru aux régionales 2021 et aux législatives 2024. Sa colistière n°2 est Olivier Le Penven, ouvrier dans l'aéronautique et délégué syndical chez Airbus.",
     "profession": "Professeure des écoles",
     "site_web": "https://www.lutte-ouvriere.org/portail/elections/municipales-2026-toulouse-189442.html",
-    "source_status": "declarations",
+    "source_status": "officiel",
     "mandats_precedents": [],
     "points_cles": [
-      "Augmentation des salaires et contre l'exploitation capitaliste",
-      "Gratuité et renforcement des services publics municipaux",
-      "Contre les politiques d'austérité étatique et municipale",
-      "Unité des travailleurs contre les divisions",
-      "Opposition à la marche vers la guerre et au réarme militaire"
+      "Gratuité des transports collectifs, financée par les entreprises et centres commerciaux",
+      "Contre la vidéosurveillance et la répression policière, pour une lutte contre l'insécurité sociale",
+      "Réquisition des 20 000 logements vacants, sortir le logement de la loi du marché",
+      "L'argent public doit servir aux services publics, pas aux profits des entreprises",
+      "Les travailleurs doivent s'organiser pour imposer leurs intérêts face au patronat et à l'État"
     ],
     "propositions": [
       {
-        "thematique": "social",
-        "titre": "Défendre les salaires et les conditions de travail",
-        "description": "Augmentation des salaires et des traitements de la fonction publique. Lutte contre les suppressions de postes d'enseignants. Priorité aux dépenses bénéficiant aux classes populaires.",
+        "thematique": "transport",
+        "titre": "Gratuité et développement des transports collectifs",
+        "description": "Dans les classes populaires la plupart des déplacements sont faits pour aller au travail ou pour aller faire ses courses, c'est pourquoi nous sommes pour que ce soit aux entreprises et aux centres commerciaux d'en financer la gratuité et le développement. Aujourd'hui bien des salariés galèrent pour pouvoir mettre de l'essence dans la voiture ou acheter la carte d'abonnement pour les transports collectifs. Des élus Lutte Ouvrière seraient favorables à ce que tous les transports collectifs soient gratuits mais aussi plus développés. Bien des travailleurs qui embauchent très tôt le matin ou qui finissent tard le soir ne peuvent pas en bénéficier. Pour que ces besoins soient satisfaits il faut une intervention des usagers de ces transports qui devront s'organiser pour imposer ce qui leur est nécessaire.",
+        "source_url": "https://www.lutte-ouvriere.org/portail/elections/municipales-2026-toulouse-189442.html",
+        "cout_estime": null
+      },
+      {
+        "thematique": "ecologie",
+        "titre": "Contre le réchauffement climatique, changer l'organisation de l'économie",
+        "description": "Les mairies n'ont quasiment aucun pouvoir pour lutter contre les effets du changement climatique. Certes, elles peuvent décider de végétaliser telle ou telle place, de faire la promotion du recyclage. Tout cela a une utilité mais c'est dérisoire par rapport aux effets de l'organisation capitaliste de l'économie sur l'environnement. Nous avons la conviction que l'humanité a toutes les connaissances qui permettent non seulement d'anticiper les problèmes mais de trouver des solutions. Et cela passe en premier par une rationalisation de la production et des échanges.",
+        "source_url": "https://www.lutte-ouvriere.org/portail/elections/municipales-2026-toulouse-189442.html",
+        "cout_estime": null
+      },
+      {
+        "thematique": "securite",
+        "titre": "Lutter contre l'insécurité sociale, pas par la vidéosurveillance",
+        "description": "L'insécurité qui frappe les travailleurs des quartiers populaires de la ville c'est d'abord l'insécurité sociale. Les bas salaires, le manque d'emploi, les petites retraites ou les allocations sociales qui ne cessent de se réduire sont les premières causes des difficultés de la vie des classes populaires. C'est en raison de l'appauvrissement général que la délinquance peut prospérer, que des caïds recrutent des jeunes. Ce n'est pas en multipliant les caméras de surveillance ou les effectifs de la police municipale qu'on règlera le fond du problème : une société d'inégalités, d'injustice. Nous ferons campagne pour l'augmentation des salaires et leur indexation sur l'inflation, pour la répartition du travail entre tous sans baisse de salaires.",
         "source_url": "https://www.lutte-ouvriere.org/portail/elections/municipales-2026-toulouse-189442.html",
         "cout_estime": null
       },
       {
         "thematique": "education",
-        "titre": "Combattre les suppressions de postes dans l'éducation",
-        "description": "Lutte contre les postes d'enseignants non remplacés et les fermetures de classes. Défense d'une école publique de qualité pour les enfants des classes populaires.",
+        "titre": "Contre les suppressions de postes dans l'éducation",
+        "description": "La réduction drastique des postes dans l'éducation, qu'il s'agisse de postes d'enseignants, de personnel Mairie ou d'accompagnants d'enfants en situation de handicap, provoque des ravages. Éveiller la curiosité des plus jeunes, la nourrir, est une des tâches les plus enthousiasmantes quand on en a les moyens. Mais aujourd'hui le gouvernement réduit tous les budgets, en particulier celui de l'éducation nationale, pour alimenter le budget de l'armement. Des élus Lutte Ouvrière au conseil municipal dénonceraient la marche à la guerre et le capitalisme qui n'offre aucun avenir à la jeunesse.",
+        "source_url": "https://www.lutte-ouvriere.org/portail/elections/municipales-2026-toulouse-189442.html",
+        "cout_estime": null
+      },
+      {
+        "thematique": "culture",
+        "titre": "Défendre les associations et rendre gratuits les lieux culturels",
+        "description": "Bon nombre d'associations, artistiques ou autres, ont vu leurs subventions réduites ou carrément supprimées. Les volontaires qui les animent jouent pourtant un rôle essentiel pour le maintien du lien social. Une mesure élémentaire de justice et d'égalité serait de rendre gratuit l'accès des lieux culturels pour le plus grand nombre. L'argent public devrait servir à permettre à tous les travailleurs de la culture de vivre décemment toute l'année, de ne plus être soumis à la précarité et à l'incertitude du lendemain.",
+        "source_url": "https://www.lutte-ouvriere.org/portail/elections/municipales-2026-toulouse-189442.html",
+        "cout_estime": null
+      },
+      {
+        "thematique": "urbanisme",
+        "titre": "Sortir le logement de la loi du marché",
+        "description": "Dans la société capitaliste, le logement est soumis à la loi du marché. À Toulouse on compte environ 20 000 logements vacants. C'est une aberration alors que tant de personnes attendent pour avoir un logement correct. Cette situation est le résultat de la spéculation immobilière qui permet aux promoteurs de faire leur argent. La file d'attente pour avoir un logement social s'allonge. Pour que chacun ait un logement digne il faut sortir de la loi du marché. Des élus Lutte Ouvrière au conseil municipal se feraient les relais des revendications des locataires et de ceux qui cherchent un logement.",
+        "source_url": "https://www.lutte-ouvriere.org/portail/elections/municipales-2026-toulouse-189442.html",
+        "cout_estime": null
+      },
+      {
+        "thematique": "fiscalite",
+        "titre": "L'argent public aux services publics, pas aux entreprises",
+        "description": "Nous sommes pour un principe simple : l'argent public doit servir aux services publics, pas à alimenter les profits des entreprises par des subventions, aides, ou commandes publiques.",
+        "source_url": "https://www.lutte-ouvriere.org/portail/elections/municipales-2026-toulouse-189442.html",
+        "cout_estime": null
+      },
+      {
+        "thematique": "social",
+        "titre": "Lutter contre la précarité et l'exploitation",
+        "description": "Il est révoltant de voir la situation dans laquelle se trouvent les personnes en situation précaire, et le peu de moyens qui est mis en œuvre par l'État. La précarité, la misère, le mal-logement touchent les migrants, les personnes handicapées, les chômeurs, mais aujourd'hui même avec un travail on n'arrive pas à se loger. Pour lutter contre la pauvreté il faut lutter contre l'exploitation, contre les bas salaires. On ne peut rien faire contre la misère au niveau d'une mairie : les maires sont impuissants car tout ce qu'ils peuvent faire n'est pas suffisant pour compenser les ravages de la misère et de la surexploitation.",
+        "source_url": "https://www.lutte-ouvriere.org/portail/elections/municipales-2026-toulouse-189442.html",
+        "cout_estime": null
+      },
+      {
+        "thematique": "numerique",
+        "titre": "Contre les subventions publiques au secteur privé",
+        "description": "Derrière le mot innovation se cachent souvent des subventions publiques au secteur privé. Si nous avons des élus LO au conseil municipal on votera en faveur de toutes les subventions et aides au tissu associatif, aux services publics, mais pas aux entreprises qui font des profits énormes, qui licencient, qui ne respectent ni l'humain ni la nature.",
+        "source_url": "https://www.lutte-ouvriere.org/portail/elections/municipales-2026-toulouse-189442.html",
+        "cout_estime": null
+      },
+      {
+        "thematique": "democratie",
+        "titre": "Pour une vraie démocratie locale, pas une consultation de façade",
+        "description": "Quand on nous parle de démocratie locale c'est « cause toujours » ! Par exemple, la participation des habitants des quartiers du Mirail aux projets immobiliers a été purement formelle : réunions publiques, enquêtes préalables, ateliers participatifs… mais sans réel pouvoir. Les habitants étaient contre les destructions d'immeubles HLM et les immeubles ont été détruits. C'est tout le sens de la liste Lutte Ouvrière – Le camp des travailleurs : les travailleurs doivent s'unir et s'organiser pour imposer leurs intérêts.",
         "source_url": "https://www.lutte-ouvriere.org/portail/elections/municipales-2026-toulouse-189442.html",
         "cout_estime": null
       }
