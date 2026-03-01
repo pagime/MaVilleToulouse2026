@@ -15,9 +15,8 @@ function closeMobile() {
   <div class="min-h-screen bg-neutral-50 dark:bg-neutral-900 flex flex-col transition-colors">
     <header class="bg-white dark:bg-neutral-800 border-b border-neutral-200 dark:border-neutral-700 sticky top-0 z-50">
       <nav class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-        <RouterLink to="/" class="flex items-center gap-2 font-bold text-primary" @click="closeMobile">
-          <span class="text-xl">MVT26</span>
-          <span class="text-xs text-neutral-400 dark:text-neutral-500 hidden sm:inline">Ma Ville Toulouse 2026</span>
+        <RouterLink to="/" class="font-bold text-primary text-xl" @click="closeMobile">
+          MVT26
         </RouterLink>
 
         <!-- Desktop nav -->
