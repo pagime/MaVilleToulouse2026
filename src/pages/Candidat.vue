@@ -32,14 +32,6 @@ const initials = computed(() => {
   return candidat.value.prenom[0] + candidat.value.nom[0]
 })
 
-const propositionCount = computed(() => candidat.value?.propositions?.length || 0)
-
-const thematiqueCoverage = computed(() => {
-  if (!candidat.value) return 0
-  const covered = new Set(candidat.value.propositions.map(p => p.thematique))
-  return covered.size
-})
-
 function openAll() {
   thematiques.forEach(t => { openThemes.value[t.slug] = true })
 }
@@ -145,45 +137,6 @@ function closeAll() {
         </div>
         <div v-else class="mt-4">
           <p class="text-sm text-neutral-500 italic dark:text-neutral-400">Pas de mandat politique précédent.</p>
-        </div>
-      </div>
-      <div class="bg-white rounded-xl shadow-sm border border-neutral-200 p-6 dark:border-neutral-700 dark:bg-neutral-800">
-        <h2 class="text-lg font-bold text-neutral-800 mb-3 dark:text-neutral-100">En résumé</h2>
-        <div class="space-y-4">
-          <div class="flex items-center gap-3">
-            <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
-              <svg class="w-5 h-5 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
-              </svg>
-            </div>
-            <div>
-              <p class="text-3xl font-bold text-primary">{{ propositionCount }}</p>
-              <p class="text-sm text-neutral-600 dark:text-neutral-300">propositions détaillées</p>
-            </div>
-          </div>
-          <div class="flex items-center gap-3">
-            <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
-              <svg class="w-5 h-5 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z" />
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z" />
-              </svg>
-            </div>
-            <div>
-              <p class="text-3xl font-bold text-primary">{{ thematiqueCoverage }}/10</p>
-              <p class="text-sm text-neutral-600 dark:text-neutral-300">thématiques couvertes</p>
-            </div>
-          </div>
-          <div class="flex items-center gap-3">
-            <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
-              <svg class="w-5 h-5 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-              </svg>
-            </div>
-            <div>
-              <p class="text-3xl font-bold text-primary">{{ candidat.mandats_precedents?.length || 0 }}</p>
-              <p class="text-sm text-neutral-600 dark:text-neutral-300">mandats précédents</p>
-            </div>
-          </div>
         </div>
       </div>
     </div>
